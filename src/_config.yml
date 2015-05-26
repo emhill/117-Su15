@@ -3,4 +3,4 @@ highlighter: pygments
 safe: false
 baseurl: /117-Su15
 exclude: [morea]
-morea_theme: flatly
+morea_theme: spacelab
