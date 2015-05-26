@@ -1,6 +1,6 @@
-name: Basic Template
+name: CSCI 117
 highlighter: pygments
 safe: false
-baseurl: /basic-template
+baseurl: /117-Su15
 exclude: [morea]
-morea_theme: cerulean
+morea_theme: flatly
