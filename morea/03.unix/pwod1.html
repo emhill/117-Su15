@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Practice HW1: UNIX & Hardware | CSCI 117 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/117-Su15/css/themes/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="/117-Su15/css/style.css">
+  <link rel="stylesheet" href="/117-Su15/css/syntax.css">
+  <link rel="shortcut icon" href="/117-Su15/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/117-Su15/index.html"> CSCI 117 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/117-Su15/modules/">Modules</a></li>
+        
+          <li><a href="/117-Su15/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/117-Su15/readings/">Readings</a></li>
+        
+        
+          <li><a href="/117-Su15/experiences/">Experiences</a></li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="practice-hw1-unix--hardware">Practice HW1: UNIX &amp; Hardware</h1>
+
+<h2 id="exploring-hardware--binary">Exploring Hardware &amp; Binary</h2>
+
+<ol>
+  <li>How many pieces of information can be conveyed with a single bit?</li>
+  <li>How many bits would you need to represent each of the 50 United States using a unique permutation of bits?</li>
+  <li>How many bits are in a byte?</li>
+  <li>What is the binary representation of the number 3?</li>
+  <li>What is the encoding standard used to convert text into ordinal numbers?</li>
+  <li>Fill in the following blanks with: motherboard, processor, memory, hard drive:
+    <ol>
+      <li>variables are stored in/on <strong>__</strong>__</li>
+      <li>the <strong>__</strong>__ executes program statements</li>
+      <li>when a program is not being executed, it resides in/on <strong>__</strong>__</li>
+      <li>a <strong>__</strong>__ connects all the components of a computer with a bus</li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="exploring-the-unix-command-line">Exploring the UNIX command line</h2>
+
+<p>Read through the following tutorial: <a href="http://www.davidbaumgold.com/tutorials/command-line/">http://www.davidbaumgold.com/tutorials/command-line/</a>. Then, open your UNIX terminal and go through the following steps.</p>
+
+<ol>
+  <li>Let’s create a directory for this class. Type <code>mkdir csci117</code>.</li>
+  <li>Type <code>cd csci117</code> to move the terminal to that directory</li>
+  <li>Type <code>touch testfile.txt</code> to create an empty file</li>
+  <li>Type <code>ls</code> in the terminal. Do you see testfile.txt?</li>
+  <li>Type <code>pwd</code> to see what directory your terminal is in, then try to navigate your computer’s GUI (window’s explorer or mac finder) to display that directory. Do the GUI folder and terminal listing from the prior step match?</li>
+  <li>Let’s edit our testfile:
+    <ul>
+      <li>If you have <a href="unix-custom.html">customized your terminal</a>: <code>ped testfile.txt</code></li>
+      <li>On mac: <code>open -a textwrangler testfile.txt</code></li>
+      <li>On windows virtual box: <code>gedit testfile.txt &amp;</code></li>
+    </ul>
+  </li>
+  <li>Type your name and save the file</li>
+  <li>Arrange your windows so you can see your editor and your terminal at the same time.</li>
+  <li>In the terminal, type <code>cat testfile.txt</code>. Is your name displayed?</li>
+  <li>Take a single screenshot of your desktop showing your editor and UNIX terminal window open at the same time.</li>
+</ol>
+
+<h4 id="how-to-take-a-screenshot">How to take a Screenshot</h4>
+<ul>
+  <li><strong>Windows</strong>: <a href="http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows">http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows</a></li>
+  <li><strong>Mac</strong>: Press Command (⌘)-Shift-3. The screenshot is added to your desktop.</li>
+</ul>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 10-15 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 15-20 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 20+ min</span>
+</span></p>
+
+<h2 id="demonstration">Demonstration</h2>
+
+<p>Once you’ve finished doing the HW a single time, watch me do it:</p>
+
+<div class="video-container">
+  <iframe src="http://www.youtube.com/embed/CIC9W_H1TjA" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="standard-practice-hw-caveats">Standard Practice HW Caveats</h2>
+
+<p>You’ll learn significantly less from watching me solve the
+HW if you haven’t attempted the HW yourself first.</p>
+
+<p>While it’s an achievement to finish the HW no matter how long it takes, you
+might experience “diminishing returns” if you work longer than the DNF (Did Not Finish)
+time. Thus, it might be strategic to stop working at the DNF time and watch
+my solution.</p>
+
+<p>After watching my solution, I recommend that you repeat the HW if you
+have not achieved at least Av (Average) performance. If so, be sure to:</p>
+
+<ul>
+  <li>Delete your old project so you cannot refer to it;</li>
+  <li>Don’t look at my screencast while you HW; and</li>
+  <li>Reset your timer.</li>
+</ul>
+
+<p>Feel free to keep trying until you make Rx if that’s of interest to you.</p>
+
+<h3 id="solutions-to-hardware-questions">Solutions to Hardware Questions</h3>
+
+<p><a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="200" /></a></p>
+
+<h3 id="my-final-unix-screenshot">My Final UNIX Screenshot</h3>
+
+<p><a href="screenshot.png"><img src="screenshot.png" width="200" /></a></p>
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: flatly)<br>
+       Last update on: <span>2015-05-26 14:18:19 -0400</span></p>
+    <p style="margin: 0">
+      1 modules
+      
+        | 1 outcomes
+      
+      
+        | 1 readings
+      
+      
+        | 5 experiences
+      
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
