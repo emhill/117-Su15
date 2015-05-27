@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Customize your Terminal | CSCI 117 </title>
+  <title> Board & Demo Notes | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -52,35 +52,42 @@
 
 
 <div class="container">
-  <h1 id="terminal-customization">Terminal Customization</h1>
-<!--*Customize your terminal so we can all open our editors from the command line with the same command.*-->
+  <!--morea_url: /morea/02.OO-intro/board_notes.JPG-->
 
-<p>The following tutorial will setup an alias, ped, that you can type on the command line to open your editor of choice directly from the terminal.</p>
+<h1 id="board--demo-notes-26--29">Board &amp; Demo Notes 2/6 &amp; 2/9</h1>
 
-<h2 id="mac">Mac</h2>
+<h2 id="python-arithmetic-26">Python arithmetic 2/6</h2>
 
-<ol>
-  <li>Open your terminal and type <code>ls -a</code></li>
-  <li>You should see either a file named .bash_profile or .profile (likely in Yosemite).
-    <ul>
-      <li>If there is no file named .bash_profile or .profile, type <code>touch .bash_profile</code></li>
-    </ul>
-  </li>
-  <li>Open this file in your editor: <code>open -a textwrangler .bash_profile</code> or <code>open -a textwrangler .profile</code></li>
-  <li>Add the following line to your .bash_profile: <code>alias ped='open -a textwrangler'</code></li>
-  <li>Save the file, close the terminal, &amp; reopen the terminal</li>
-  <li>Try it out by typing <code>ped</code></li>
-</ol>
+<p>Python supports 6 basic arithmetic operations:</p>
 
-<h2 id="virtualbox-should-already-be-setup">VirtualBox (should already be setup)</h2>
+<ul>
+  <li>addition (+)</li>
+  <li>subtraction (-)</li>
+  <li>multiplication (*)</li>
+  <li>floating point division (/)</li>
+  <li>integer division (//) – rounds down to nearest whole number</li>
+  <li>exponent (**)</li>
+  <li>remainder or modulus (%) – returns remainder after division</li>
+</ul>
 
-<ol>
-  <li>Open your terminal and type <code>ls -a</code></li>
-  <li>Open .bashrc file in your editor: <code>gedit .bashrc &amp;</code></li>
-  <li>If it’s not already at the top of the file, add the following line to your .bashrc: <code>ped() { gedit "$@" &amp; }</code></li>
-  <li>Save the file, close the terminal, &amp; reopen the terminal</li>
-  <li>Try it out by typing <code>ped</code></li>
-</ol>
+<p>Below are some examples we looked at in class:<br />
+<a href="python-arithmetic.png"><img src="python-arithmetic.png" width="300" /></a><br /></p>
+
+<h2 id="python-arithmetic-29">Python arithmetic 2/9</h2>
+
+<p>Below are some examples we looked at in class:<br />
+<a href="python-arithmetic2.jpg"><img src="python-arithmetic2.jpg" width="250" /></a><br /></p>
+
+<p>Regarding order of operations &amp; precedence:<br />
+<a href="python-order.jpg"><img src="python-order.jpg" width="250" /></a><br /></p>
+
+<h2 id="example-programs-from-29">Example program(s) from 2/9</h2>
+
+<ul>
+  <li><a href="arith_and_assign.py">arith_and_assign.py</a></li>
+  <li><a href="input_demo.py">input_demo.py</a></li>
+</ul>
+
 
 </div>
 

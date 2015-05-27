@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> WOD2: Python Syntax & Variables | CSCI 117 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/117-Su15/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/117-Su15/css/style.css">
+  <link rel="stylesheet" href="/117-Su15/css/syntax.css">
+  <link rel="shortcut icon" href="/117-Su15/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/117-Su15/index.html"> CSCI 117 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/117-Su15/modules/">Modules</a></li>
+        
+          <li><a href="/117-Su15/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/117-Su15/readings/">Readings</a></li>
+        
+        
+          <li><a href="/117-Su15/experiences/">Experiences</a></li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="wod2-python-syntax--variables">WOD2: Python Syntax &amp; Variables</h1>
+
+<h2 id="unix--python">UNIX &amp; Python</h2>
+
+<h2 id="a-simple-python-program">A simple python program</h2>
+
+<ol>
+  <li>Create a folder <code>wod2_uLogin</code> where you replace <code>uLogin</code> with your Drew e-mail address before the @ sign.</li>
+  <li>Go into this folder by typing <code>cd wod2_uLogin</code> and create a python file: <code>touch bye.py</code></li>
+  <li>Edit the file (<code>ped bye.py</code>):
+    <ol>
+      <li>Create a variable to store your last name</li>
+      <li>Print “Goodbye, …!” and replace the ellipsis (…) with the variable that is storing your last name.</li>
+      <li>Add a comment at the top of the file that explains what your program does.</li>
+    </ol>
+  </li>
+  <li>Run your python program: <code>python3 bye.py</code></li>
+  <li>Copy your python file <code>bye.py</code> to <code>byebye.py</code>.</li>
+  <li>Create a second program called <code>temp.py</code>, that:
+    <ol>
+      <li>Has 2 variables:
+        <ul>
+          <li>degrees_f: holds a temperature in degrees fahrenheit (86)</li>
+          <li>degrees_c: holds the temperature in degrees celsius. To convert fahrenheit to celsius, deduct 32 from the fahrenheit temperature and multiply by 5/9.</li>
+        </ul>
+      </li>
+      <li>Prints the values of both variables with a string description, such as: “F degrees fahrenheit = C degrees celsius”, replacing F &amp; C with the values of your variables.</li>
+    </ol>
+  </li>
+  <li>Run your python program: <code>python3 temp.py</code>. The degrees celsius should be <code>30</code>.</li>
+  <li>Once you’re satisfied that your programs are working correctly, zip it for submission:
+    <ul>
+      <li><code>cd ..</code></li>
+      <li><code>zip wod2_uLogin.zip wod2_uLogin/*</code></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="types--arithmetic">Types &amp; Arithmetic</h2>
+
+<p>Answer the following questions when you submit your zip file to moodle:</p>
+
+<ol>
+  <li>Given the following values, what are their types:
+    <ol>
+      <li>False</li>
+      <li>1926</li>
+      <li>‘Hello’</li>
+      <li>42.7</li>
+      <li>“True”</li>
+    </ol>
+  </li>
+  <li>If the following statements are executed in order, what will be the values of each variable?
+    <ol>
+      <li>x = 9</li>
+      <li>y = 2</li>
+      <li>a = x // y</li>
+      <li>b = x % y</li>
+      <li>c = x / y</li>
+      <li>d = y * (a ** y)</li>
+    </ol>
+  </li>
+  <li>What would be an appropriate name and data type for the following variables:
+    <ol>
+      <li>A figure skating average score</li>
+      <li>The Olympic Athlete with the most gold medals   </li>
+      <li>The number of gold medals </li>
+    </ol>
+  </li>
+</ol>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 30+ min</span>
+</span></p>
+
+<!-- Started @ 11:31 -->
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+       Last update on: <span>2015-05-27 12:07:49 -0400</span></p>
+    <p style="margin: 0">
+      2 modules
+      
+        | 2 outcomes
+      
+      
+        | 5 readings
+      
+      
+        | 9 experiences
+      
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
