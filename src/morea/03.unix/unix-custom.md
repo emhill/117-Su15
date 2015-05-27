@@ -23,7 +23,7 @@ The following tutorial will setup an alias, ped, that you can type on the comman
 1. Save the file, close the terminal, & reopen the terminal
 1. Try it out by typing `ped`
 
-## Windows
+## VirtualBox (should already be setup)
 
 1. Open your terminal and type `ls -a`
 1. Open .bashrc file in your editor: `gedit .bashrc &`
