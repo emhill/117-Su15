@@ -11,6 +11,8 @@ morea_experiences:
  - ca-1-2
  - ca-3-4
  - hw3
+ - phw4
+ - hw4
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
