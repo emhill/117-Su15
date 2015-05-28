@@ -39,7 +39,7 @@ Write a program `mangle.py` that takes a string as input form the user and print
 For example:
 
 | **string** | **mangle(string)** |
-|---|---|
+|:---:|:---:|
 | hellothere | HLLOTHER |
 | 42 degrees Celsius | 4 DEGREES CELSIU | 
 
@@ -47,8 +47,8 @@ For example:
 
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
-    - `cd ..`
-    - `zip phw4_uLogin.zip phw4_uLogin/*`
+  - `cd ..`
+  - `zip phw4_uLogin.zip phw4_uLogin/*`
 
 
 <!--

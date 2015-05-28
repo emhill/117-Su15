@@ -67,7 +67,7 @@ Finally, print only the middle 3 letters using the substring or splice operation
 For example:
 
 | **string** | **Mangled Output** | **Middle 3** |
-|---|---|
+|:---:|:---:|:---:|
 | Monty Python | mNTY pYTHN | y P |
 | hello | HLL | ell |
 
@@ -76,7 +76,7 @@ For example:
 
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
-    - `cd ..`
-    - `zip hw4_uLogin.zip hw4_uLogin/*`
+  - `cd ..`
+  - `zip hw4_uLogin.zip hw4_uLogin/*`
 
 Upload your zip file to Google Classroom.
