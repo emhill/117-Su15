@@ -4,11 +4,11 @@ published: true
 morea_id: phw4
 morea_type: experience
 morea_sort_order: 5
-morea_summary: "Python Syntax & Variables"
+morea_summary: "Input, Strings, and Using Functions"
 morea_labels:
  - due 6/1
 ---
-# Practice HW4: Input, Strings, and using Functions
+# Practice HW4: Input, Strings, and Using Functions
 <!--
 {% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}-->
 
@@ -18,7 +18,7 @@ morea_labels:
   * `cd phw4_uLogin`
   * `touch math.py mangle.py`
 
-*Don't forget to add a comment at the top of the program with your name and what the program does.*
+*Don't forget to add a comment at the top of each program with your name and what the program does.*
 
 ## math.py
 
