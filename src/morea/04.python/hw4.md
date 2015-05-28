@@ -18,7 +18,7 @@ morea_labels:
   * `cd hw4_uLogin`
   * `touch bye.py convert.py fun.py string.py`
 
-*Don't forget to add a comment at the top of the program with your name and what the program does.*
+*Don't forget to add a comment at the top of each program with your name and what the program does.*
 
 ## bye.py
 
