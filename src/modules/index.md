@@ -19,7 +19,7 @@ title: Modules
               <a href="{{ module.morea_id }}" role="button"><img src="{{ site.baseurl }}{{ module.morea_icon_url }}" width="100" class="img-circle img-responsive morea-img-hover"></a>
             {% endif %}
             <div class="caption">
-              <h3 style="text-align: center; margin-top: 0">{{ forloop.index }}. {{ module.title }}</h3>
+              <h3 style="text-align: center; margin-top: 0">{{ forloop.index }}. <a href="{{ module.morea_id }}">{{ module.title }}</a></h3>
               {{ module.content | markdownify }}
               <p>
               {% for label in module.morea_labels %}
