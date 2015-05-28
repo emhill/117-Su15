@@ -76,7 +76,7 @@ In a graded WOD or project, I would give you directions like this:
 
 ## Demonstration
 
-Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="bMbr3Xpbgzk" %}
 

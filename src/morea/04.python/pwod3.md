@@ -62,7 +62,7 @@ Try to answer the following questions without typing them in to the python3 inte
 
 ## Demonstration
 
-Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="NGK61X9ry9c" %}
 
