@@ -75,6 +75,7 @@ For example:
 ## Submission
 
 Once you're satisfied that your programs are working correctly, zip it for submission:
+
     - `cd ..`
     - `zip hw4_uLogin.zip hw4_uLogin/*`
 
