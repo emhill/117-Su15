@@ -41,7 +41,7 @@ Your program shold print the values of both variables with a string description,
 For example:
 
 | **degrees_f** | **degrees_c** | **output** |
-|---|---|
+|:---:|:---:|:---:|
 | 86 | 30 | 86 degrees fahrenheit = 30 degrees celsius |
 | 72 | 22 | 72 degrees fahrenheit = 22 degrees celsius |
 | 32 | 0 | 32 degrees fahrenheit = 0 degrees celsius |
