@@ -60,7 +60,7 @@ Try to answer the following questions without typing them in to the python3 inte
 
 <!-- Allow 45 minutes for all? -->
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the WOD a single time, you can watch me do it:
 
@@ -70,4 +70,4 @@ Once you've finished doing the WOD a single time, you can watch me do it:
 
 ### Solutions to Questions
 
-<a href="types.png"><img src="types.png" width="200"/></a>-->
+<a href="types.png"><img src="types.png" width="200"/></a>
