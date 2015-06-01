@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Practice HW4 | CSCI 117 </title>
+  <title> PHW5 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,84 +54,53 @@
 
 
 <div class="container">
-  <h1 id="practice-hw4-input-strings-and-using-functions">Practice HW4: Input, Strings, and Using Functions</h1>
-<!--
-<span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: <10 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 30+ min</span>
-</span>
--->
+  <h1 id="practice-hw5-input--ifs">Practice HW5: Input &amp; Ifs</h1>
 
-<h2 id="setup">Setup</h2>
+<p>In this practice HW you will create 3 programs that explore getting user input and using if statements.</p>
 
-<ul>
-  <li><code>mkdir phw4_uLogin</code></li>
-  <li><code>cd phw4_uLogin</code></li>
-  <li><code>touch math.py mangle.py</code></li>
-</ul>
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;15 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 15-30 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 30-45 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 45+ min</span>
+</span></p>
 
-<p><em>Don’t forget to add a comment at the top of each program with your name and what the program does.</em></p>
+<h2 id="temperaturepy">temperature.py</h2>
 
-<h2 id="mathpy">math.py</h2>
-
-<p>Write a program <code>math.py</code> that takes a number as input from the user and prints out the following information using the math module:</p>
+<p>Create a program that asks the user for the current temperature and outputs what they should wear. Your program should meet the following requirements:</p>
 
 <ol>
-  <li>The floor of the number (e.g., <code>floor(3.75)</code> is 3)</li>
-  <li>The square root of the number rounded to 2 decimal places <!-- factorial --></li>
-  <li>The absolute value of the number</li>
+  <li>Has a variable, <code>temp</code>, that stores the temperature input from the user</li>
+  <li>Requests the user to enter the temperature</li>
+  <li>Displays the following information based on the temperature range:
+    <ul>
+      <li><strong>Above 90</strong>: “Whoa, it’s boiling!”</li>
+      <li><strong>Above or equal to 80</strong>: “It’s getting hot”</li>
+      <li><strong>Below 80</strong>: “A perfect day”</li>
+      <li><strong>Below 60</strong>: “Don’t forget your sweater”</li>
+      <li><strong>Below freezing</strong>: “Brrr, you need a coat!”</li>
+    </ul>
+  </li>
 </ol>
 
-<h2 id="manglepy">mangle.py</h2>
+<p>Only one phrase should be displayed to the user for any given temperature input. Make sure to test your program with multiple temperatures.</p>
 
-<p>Write a program <code>mangle.py</code> that takes a string as input form the user and prints the string after performing the following operations:</p>
+<h2 id="absolutevaluepy">absolute_value.py</h2>
 
-<ol>
-  <li>converting the string to all upper case letters</li>
-  <li>removing the second character</li>
-  <li>removing the last character</li>
-</ol>
+<p>Create a program that asks the user for a number and prints its absolute value <strong><em>without</em></strong> using any python functions (in other words, you should use an if statement). </p>
 
-<p>For example:</p>
+<h2 id="ismultiplepy">is_multiple.py</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>string</strong></th>
-      <th style="text-align: center"><strong>mangle(string)</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">hellothere</td>
-      <td style="text-align: center">HLLOTHER</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">42 degrees Celsius</td>
-      <td style="text-align: center">4 DEGREES CELSIU</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="submission">Submission</h2>
-
-<p>Once you’re satisfied that your programs are working correctly, zip it for submission:</p>
-
-<ul>
-  <li><code>cd ..</code></li>
-  <li><code>zip phw4_uLogin.zip phw4_uLogin/*</code></li>
-</ul>
+<p>Create a program that asks the user for a whole number and prints whether it’s a multiple of 5. Make sure to test the program by inputting numbers that are multiples of 5 as well as those that aren’t multiples of 5. (<em>Hint</em>: what arithmetic operator can you use to determine whether a number is a multiple of another?)</p>
 
 <!--
-
 ## Demonstration
+
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 <div class="video-container">
-  <iframe  src="http://www.youtube.com/embed/NGK61X9ry9c" frameborder="0" allowfullscreen></iframe>
+  <iframe  src="http://www.youtube.com/embed/gHFuYMWDa28" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Standard Practice HW Caveats
@@ -151,8 +120,7 @@ have not achieved at least Av (Average) performance. If so, be sure to:
   * Don’t look at my screencast while you HW; and
   * Reset your timer.
 
-Feel free to keep trying until you make Rx if that’s of interest to you.
--->
+Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
 </div>
 
