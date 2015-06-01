@@ -51,13 +51,12 @@ Once you're satisfied that your programs are working correctly, zip it for submi
   - `zip phw4_uLogin.zip phw4_uLogin/*`
 
 
-<!--
+
 
 ## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
-{% include youtube.html id="NGK61X9ry9c" %}
+{% include youtube.html id="8uFbvxWgi9E" %}
 
 {% include wod-warning.html %}
--->
