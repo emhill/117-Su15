@@ -9,14 +9,14 @@ morea_labels:
  - due 6/1
 ---
 # Practice HW4: Input, Strings, and Using Functions
-<!--
-{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}-->
+
+{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}
 
 ## Setup
 
   * `mkdir phw4_uLogin`
   * `cd phw4_uLogin`
-  * `touch math.py mangle.py`
+  * `touch maths.py mangle.py`
 
 *Don't forget to add a comment at the top of each program with your name and what the program does.*
 
@@ -26,11 +26,11 @@ Write a program `maths.py` that takes a number as input from the user and prints
 
   1. The floor of the number (e.g., `floor(3.75)` is 3)
   1. The square root of the number rounded to 2 decimal places <!-- factorial -->
-  1. The absolute value of the number
+  1. The absolute value of the number times -1
 
 ## mangle.py
 
-Write a program `mangle.py` that takes a string as input form the user and prints the string after performing the following operations:
+Write a program `mangle.py` that takes a string as input from the user and prints the string after performing the following operations:
 
   1. converting the string to all upper case letters
   1. removing the second character
