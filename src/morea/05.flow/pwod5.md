@@ -35,4 +35,4 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="lexkpbllvT0" %}
 
-{% include HW-warning.html %}-->
+{% include wod-warning.html %}-->
