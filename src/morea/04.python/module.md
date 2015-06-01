@@ -4,7 +4,6 @@ published: true
 morea_id: python
 morea_outcomes:
  - outcome-python
- - outcome-unix
 morea_readings:
  - reading-TP2
 morea_experiences:
