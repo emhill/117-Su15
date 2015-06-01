@@ -20,9 +20,9 @@ morea_labels:
 
 *Don't forget to add a comment at the top of each program with your name and what the program does.*
 
-## math.py
+## maths.py
 
-Write a program `math.py` that takes a number as input from the user and prints out the following information using the math module:
+Write a program `maths.py` that takes a number as input from the user and prints out the following information using the math module:
 
   1. The floor of the number (e.g., `floor(3.75)` is 3)
   1. The square root of the number rounded to 2 decimal places <!-- factorial -->
