@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Practice HW4 | CSCI 117 </title>
+  <title> HW8 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,82 +54,82 @@
 
 
 <div class="container">
-  <h1 id="practice-hw4-input-strings-and-using-functions">Practice HW4: Input, Strings, and Using Functions</h1>
+  <h1 id="practice-hw8-go-with-the-control-flow">Practice HW8: Go with the (control) flow</h1>
 
-<p><span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 30+ min</span>
-</span></p>
+<p>Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. <strong><em>You don’t need to run either program to complete the assignment.</em></strong></p>
 
-<h2 id="setup">Setup</h2>
+<!--<span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: <20 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 20-40 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 40-60 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 60+ min</span>
+</span>
+-->
 
-<ul>
-  <li><code>mkdir phw4_uLogin</code></li>
-  <li><code>cd phw4_uLogin</code></li>
-  <li><code>touch maths.py mangle.py</code></li>
-</ul>
+<h2 id="exercise-loopypy">Exercise: loopy.py</h2>
 
-<p><em>Don’t forget to add a comment at the top of each program with your name and what the program does.</em></p>
+<p>Take a look at <a href="loopy.pdf">loopy.py</a> and the output from a sample run. Each line of code in loopy.py is given a line number to the left. Given this sample run, in what order are the statements executed? List the line numbers in the order that they are executed. <em>Hint</em>: not all line numbers need to be included, and some line numbers may appear multiple times.</p>
 
-<h2 id="mathspy">maths.py</h2>
-
-<p>Write a program <code>maths.py</code> that takes a number as input from the user and prints out the following information using the math module:</p>
+<p>Make sure you can answer the following questions:</p>
 
 <ol>
-  <li>The floor of the number (e.g., <code>floor(3.75)</code> is 3)</li>
-  <li>The square root of the number rounded to 2 decimal places <!-- factorial --></li>
-  <li>The absolute value of the number times -1</li>
+  <li>What is the first line executed?</li>
+  <li>What is the last line executed?</li>
+  <li>Is each function fruitful or void?</li>
 </ol>
 
-<h2 id="manglepy">mangle.py</h2>
+<!--## Demonstration
 
-<p>Write a program <code>mangle.py</code> that takes a string as input from the user and prints the string after performing the following operations:</p>
+*Coming soon...*
 
-<ol>
-  <li>converting the string to all upper case letters</li>
-  <li>removing the second character</li>
-  <li>removing the last character</li>
-</ol>
-
-<p>For example:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>string</strong></th>
-      <th style="text-align: center"><strong>mangle(string)</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">hellothere</td>
-      <td style="text-align: center">HLLOTHER</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">42 degrees Celsius</td>
-      <td style="text-align: center">4 DEGREES CELSIU</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="submission">Submission</h2>
-
-<p>Once you’re satisfied that your programs are working correctly, zip it for submission:</p>
-
-<ul>
-  <li><code>cd ..</code></li>
-  <li><code>zip phw4_uLogin.zip phw4_uLogin/*</code></li>
-</ul>
-
-<h2 id="demonstration">Demonstration</h2>
-
-<p>Once you’ve finished doing the HW a single time, you can watch me do it:</p>
+Once you've finished doing the WOD a single time, you can watch me do it:
 
 <div class="video-container">
-  <iframe src="http://www.youtube.com/embed/8uFbvxWgi9E" frameborder="0" allowfullscreen=""></iframe>
-</div>
+  <iframe  src="http://www.youtube.com/embed/0BPlMXkwdcY" frameborder="0" allowfullscreen></iframe>
+</div>-->
+
+<h2 id="solution">Solution</h2>
+
+<p>Order that the lines are executed:</p>
+
+<pre><code>34, 35, 36 get_area(+,+)
+	5, 6, 7
+
+36, 38 rectangle_outline
+	21, 22, 24, 25 draw_line(25)
+		16, 25 * (17, 18), 19
+23 * (	22, 24, 28, 29, 23 * (30, 31), 32	)
+	22, 24, 25 draw_line(25)
+		16, 25 * (17, 18), 19 
+
+40 get_area(-,+)
+	5, 6, 8, 9, 10, 11, 14
+
+41 get_area(+,-)
+	5, 6, 8, 9, 10, 12, 13, 14
+
+43, 44 draw_line
+	16, 17, 19
+43, 44, 16, 1 * (17, 18), 19
+43, 44, 16, 2 * (17, 18), 19
+43, 44, 16, 3 * (17, 18), 19
+43, 44, 16, 4 * (17, 18), 19
+43
+</code></pre>
+
+<p>Questions:</p>
+
+<ol>
+  <li>34</li>
+  <li>43 or 19</li>
+  <li>Fruitful or void?
+    <ul>
+      <li>get_area:		fruitful</li>
+      <li>draw_line:		void</li>
+      <li>rectangle_outline:	void</li>
+    </ul>
+  </li>
+</ol>
 
 <h2 id="standard-practice-hw-caveats">Standard Practice HW Caveats</h2>
 
