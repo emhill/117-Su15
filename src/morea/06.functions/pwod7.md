@@ -10,7 +10,7 @@ morea_labels:
 ---
 # Practice HW8: Go with the (control) flow
 
-Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. ***You don’t need to run either program to complete the assignment.***
+Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. ***You don’t need to run the program to complete the assignment.***
 
 <!--{% include wod-times.html Rx="<20 min" Av="20-40 min" Sd="40-60 min" DNF="60+ min" %}-->
 
