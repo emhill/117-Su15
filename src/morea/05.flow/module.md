@@ -9,6 +9,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP5
  - reading-TP4.2
+ - reading-TP36
 morea_experiences:
  - ca-5
  - phw5
