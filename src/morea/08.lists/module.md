@@ -12,7 +12,7 @@ morea_readings:
  - reading-TP-12
 morea_experiences:
  - ca-6
- - hw9
+ - phw9
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/yarn.png
