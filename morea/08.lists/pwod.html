@@ -67,7 +67,15 @@
 
 <h2 id="modepy">mode.py</h2>
 
-<p>Create a program that calculates the most frequently occurring number in a list of 10 numbers. You may hard-code in a list of numbers rather than getting them as input from the user. You may use the python <a href="https://docs.python.org/3.4/library/statistics.html#statistics.mode">mode</a> function. </p>
+<p>Create a program that calculates the most frequently occurring number in a list of 10 numbers. You may hard-code in a list of numbers rather than getting them as input from the user. You may use the python <a href="https://docs.python.org/3.4/library/statistics.html#statistics.mode">mode</a> function.</p>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Create a list of 10 numbers and print it out</li>
+  <li>Make sure one number occurs more than any other</li>
+  <li>Print out the <a href="https://docs.python.org/3.4/library/statistics.html#statistics.mode">mode</a> function applied to the list</li>
+</ol>
 
 <h2 id="wheelpy">wheel.py</h2>
 
@@ -76,6 +84,17 @@
 <p>Write an <strong>iterative</strong> function <code>count_vowels</code> which takes a word as a parameter and returns the number of vowels in that string.</p>
 
 <p>Test both functions by asking the user to enter a word, and printing the number of vowels found by each function.</p>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Create a variable containing a single letter. Write an if statement to determine if that letter is a vowel or not. (<strong><em>Hint</em></strong>: use <code>in</code>)</li>
+  <li>Put that if inside a loop that iterates through every letter in a string and prints out whether each letter is a vowel or not</li>
+  <li>Update the loop to count the number of vowels and print the total at the end. This is the <code>count_vowels</code> function.</li>
+  <li>For the recursive <code>sajak</code> function, think about how you can recursively print the first or last letter in a string, and implement it.</li>
+  <li>Instead of printing the letter, print whether it’s a vowel.</li>
+  <li>Instead of printing, count whether the letter is a vowel or not.</li>
+</ol>
 
 <h2 id="textpy">text.py</h2>
 
@@ -103,11 +122,18 @@ we
 w
 </code></pre>
 
-<p>You may use <em>either</em> recursion <em>or</em> iteration in your solution.</p>
-
-<p>Next write a function <code>is_palindrome</code> that takes a string of text as a parameter and outputs whether or not the string is the same forward &amp; backward. For example, “Anna”, “civic”, and “rotator” are example palindrome words; “A man, a plan, a canal: Panama” and “Emily’s sassy lime” are example palindrome phrases.</p>
+<p>You may use <em>either</em> recursion <em>or</em> iteration in your solution. Note: if you use recursion, will need to implement 2 functions: one for printing top triangle of letters and one that prints the bottom triangle of letters. If using iteration, you will need 2 loops.</p>
 
 <p>Test your functions by getting a string of text from the user and printing the results of both functions.</p>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Create a string variable &amp; print it out</li>
+  <li>Think about the pattern of strings that are printed. Write a loop or a recursive function that successively prints out a substring from index 0 to the end. (<strong><em>Hint</em></strong>: use <code>:</code>)</li>
+  <li>Now print the other way</li>
+  <li>Get input from the user</li>
+</ol>
 
 <!--## Demonstration
 
@@ -157,7 +183,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-06-10 11:43:00 -0400</span></p>
+       Last update on: <span>2015-06-10 15:40:08 -0400</span></p>
     <p style="margin: 0">
       6 modules
       
