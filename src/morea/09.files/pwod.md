@@ -10,7 +10,7 @@ morea_labels:
 ---
 # Practice HW10: Files & While
 
-In this practice HW you will create 2 programs that get input/output from files and use while loops. 
+In this practice HW you will create 3 programs that get input/output from files and use while loops. 
 
 {% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
@@ -51,10 +51,19 @@ Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt
 6. Only print out "the".
 7. Count the number of times you see "the" (create a variable or a list) and print it out.
 
+## lines.py
+
+Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and `text3.txt`, counts the number of lines in each file, and prints out the number of lines to a file `counts.txt`. Each line of `counts.txt` should look like `[filename]: [the number of lines in the file]`.
+
+***Hints:***
+
+  * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.
+  * You should add the file names `text1.txt`, `text2.txt`, and `text3.txt` to a list, so you don't have to copy & paste your code.
+
 <!--## Demonstration
 
 
-Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the HW a single time, you can watch me do it for `while.py` and `count.py`:
 
 {% include youtube.html id="2GkDAxZOnt8" %}
 
