@@ -15,7 +15,7 @@ morea_experiences:
  - phw9
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/materials/yarn.png
+morea_icon_url: /morea/materials/list.png
 morea_sort_order: 8
 ---
 
