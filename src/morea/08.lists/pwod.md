@@ -77,16 +77,16 @@ Test your functions by getting a string of text from the user and printing the r
 2. Now print the other way
 3. Get input from the user
 
-<!--## Demonstration
+## Demonstration
 
 
-Once you've finished doing the HW a single time, you can watch me do it:
+Once you've finished doing the HW a single time, you can watch me do it. ***Note***, this video includes exercises in a different order:
 
 {% include youtube.html id="hsjv5f2DlFk" %}
 
-Recursive solution to pyramid function in text.py:
+Recursive solution to pyramid function in `text.py`:
 
 {% include youtube.html id="yBrjRTtFiTE" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
 

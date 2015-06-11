@@ -12,20 +12,22 @@ morea_labels:
 
 In this practice HW you will create 2 programs that get input/output from files and use while loops. 
 
-<!--{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}-->
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
 ## while.py
 
 Create a program `while.py` that allows the user to enter in a list of numbers, prints them out in sorted order, and prints the sum of the numbers. Prompt the user to continue entering numbers, and enter the number ‘0’ when finished.
 
 ***Hints:***
- 
+
+* The [python `sum` function](https://docs.python.org/3/library/functions.html#sum) allows you to sum a list of numbers.
 * I recommend following the sentinel while loop pattern:
 
       value = initialize
       while value != sentinel:
         process value
         value = updated value
+
 
 ## count.py
 
@@ -54,7 +56,7 @@ Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt
 
 Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="FMj6DvHxJw8" %}
+{% include youtube.html id="2GkDAxZOnt8" %}
 
 {% include wod-warning.html %}
 
