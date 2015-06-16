@@ -3,7 +3,7 @@ title: "PHW11"
 published: true
 morea_id: phw11
 morea_type: experience
-morea_sort_order: 9
+morea_sort_order: 15
 morea_summary: "Dictionaries"
 morea_labels:
  - by 6/17
