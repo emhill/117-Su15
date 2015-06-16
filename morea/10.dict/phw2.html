@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> HW9 | CSCI 117 </title>
+  <title> PHW12 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,37 +54,73 @@
 
 
 <div class="container">
-  <h1 id="hw9-word-frequencies">HW9: Word Frequencies</h1>
+  <h1 id="practice-hw12-list-comprehensions">Practice HW12: List Comprehensions</h1>
 
-<p>Write a program <code>frequency.py</code> that reads in <a href="data/turing.txt">the file <code>turing.txt</code></a> and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, “the” occurs 10 times and would be printed out before “Alan”, which occurs just once.</p>
+<p>In this practice HW you will …</p>
 
-<p>Your program should not take in any user input, just read in the hard-coded filename <code>"turing.txt"</code>. You may use any example template to read in the file (for loop, while loop, etc).</p>
+<!--<span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: <45 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 45-90 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 90-135 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 135+ min</span>
+</span>
+-->
 
-<p><strong><em>Recommended Development Steps:</em></strong></p>
+<!--## sets.py
 
-<ol>
-  <li>Read in the file &amp; print it back out.</li>
-  <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.
-    <ul>
-      <li>To check your work, use the UNIX command <code>python3 frequency.py | sort | uniq -c | sort -rn</code> to give a list of all the words sorted by frequency. </li>
-      <li>Make sure you don’t see any unwanted values like punctuation or spaces. If you do, tweak your program to get your desired output. (See hints below.)</li>
-      <li>Your next step is to implmement the above UNIX command in your python program using a dictionary.</li>
-    </ul>
-  </li>
-  <li>Create a frequency dictionary and add each word to it: <code>freq[word] = 1</code>. Print out the dictionary.</li>
-  <li>Count the number of words (see hints below). Print out the dictionary.</li>
-  <li>Sort the dictionary by values before printing. (See hints below.)</li>
-</ol>
+Create a program `sets.py` that declares the following set:
 
-<p><strong><em>Hints:</em></strong></p>
+`s = {"A", "B", "C", "D", "E"}`
 
-<ul>
-  <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
-  <li>Lowercase your words so that “the” is counted the same as “The”.</li>
-  <li>Don’t forget to replace punctuation so “Alan” is counted the same as “Alan,”. I recommend the <a href="http://www.tutorialspoint.com/python/string_replace.htm"><code>replace</code> function</a> for this. You can use a loop on a string to replace many characters.  </li>
-  <li>When counting words with a dictionary, you may need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it’s not, initialize it to 1. If you are using the <code>count</code> function you may not encounter this issue.</li>
-  <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key. For more information, see <a href="http://stackoverflow.com/a/613218">this answer on stack overflow</a></li>
-</ul>
+and prints a random element of the set until the first element is sampled. In other words, the while loop continues printing letters in the set `s` until "A" is the next letter. The output should have no "A"'s.
+
+Then, create another set:
+
+`r = {"A", "C", "E", "G"}`
+
+and print the results of the following [set operations](https://docs.python.org/3.4/library/stdtypes.html#set): union, intersection, and difference.
+
+***Hints:***
+
+ * The following code randomly selects an element from a set:
+
+	import random
+	
+	s = {"A", "B", "C", “D”, “E”}
+	print(random.sample(s, 1))
+ 
+ * For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
+ 
+* I recommend following the sentinel while loop pattern:
+
+      value = initialize
+      while value != sentinel:
+        process value
+        value = updated value
+
+***Recommended Development Steps:***
+
+1. Create the set `s` and print it out
+2. Print out a random sample of 1 element from `s` instead (see hints above)
+3. Use the sentinal template in the hints above to create a while loop that prints out a random letter until the value is "A"
+4. Create the set `r` and print out the union with `s`
+5. Print out the intersection and difference
+
+
+## dictionary.py
+
+Create a program `dictionary.py` that creates a simple dictionary with two keys, even & odd, that stores the **set** of even & odd numbers from 1 to 10 and prints it out.
+
+***Hints:***
+
+ * Use the [`set()` function](https://docs.python.org/3.4/library/stdtypes.html#set) to initialize an empty set.
+
+***Recommended Development Steps:***
+
+1. Write a loop that prints out the numbers from 1 to 10
+2. In this loop, print out whether the number is even or odd
+3. Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.
+4. Replace your set variables by adding them to a dictionary `d` instead. For example, if you had a set named `even`, replace every occurrence of that variable with `d['even']`. Make sure you initialize `d` to be an empty dictionary (`d = {}`). Print out the dictionary after your loop to confirm the behavior is the same as in the prior step.-->
 
 <!--## Demonstration
 
