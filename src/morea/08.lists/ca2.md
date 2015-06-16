@@ -1,10 +1,10 @@
 ---
-title: "HW10: Code Academy"
+title: "HW7: Code Academy"
 published: true
-morea_id: ca10
+morea_id: ca-7
 morea_type: experience
 morea_sort_order: 1
-morea_summary: "Student Becomes the Teacher"
+morea_summary: "File Input/Output"
 morea_url: http://www.codecademy.com/en/tracks/python
 morea_labels:
 

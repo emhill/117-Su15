@@ -11,6 +11,7 @@ morea_readings:
  - reading-TP9
  - reading-cs5-5
 morea_experiences:
+ - ca10
  - phw11
  - hw9
 morea_assessments:
@@ -19,4 +20,4 @@ morea_icon_url: /morea/materials/dictionary.jpg
 morea_sort_order: 8
 ---
 
-Loading & storing data
+Advanced data & control structures
