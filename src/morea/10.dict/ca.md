@@ -1,13 +1,13 @@
 ---
-title: "HW6: Code Academy"
+title: "HW7: Code Academy"
 published: true
-morea_id: ca-6
+morea_id: ca-7
 morea_type: experience
 morea_sort_order: 1
-morea_summary: "PygLatin"
+morea_summary: "Python Lists and Dictionaries, Loops, & File Input/Output"
 morea_url: http://www.codecademy.com/en/tracks/python
 morea_labels:
-
+ - due 4/6
 ---
 <!--## Code Academy Sign Up
 
