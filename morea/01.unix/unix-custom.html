@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Objects | CSCI 117 </title>
+  <title> Customize your Terminal | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -53,134 +53,38 @@
 </div>
 
 
-  <div class="container">
-  <h1><small>Module: </small> Objects </h1>
-  <p><p>Object-Oriented Programming in Python</p>
-</p>
+<div class="container">
+  <h1 id="terminal-customization">Terminal Customization</h1>
+<!--*Customize your terminal so we can all open our editors from the command line with the same command.*-->
+
+<p>The following tutorial will setup an alias, ped, that you can type on the command line to open your editor of choice directly from the terminal.</p>
+
+<h2 id="mac">Mac</h2>
+
+<ol>
+  <li>Open your terminal and type <code>ls -a</code></li>
+  <li>You should see either a file named .bash_profile or .profile (likely in Yosemite).
+    <ul>
+      <li>If there is no file named .bash_profile or .profile, type <code>touch .bash_profile</code></li>
+    </ul>
+  </li>
+  <li>Open this file in your editor: <code>open -a textwrangler .bash_profile</code> or <code>open -a textwrangler .profile</code></li>
+  <li>Add the following line to your .bash_profile: <code>alias ped='open -a textwrangler'</code></li>
+  <li>Save the file, close the terminal, &amp; reopen the terminal</li>
+  <li>Try it out by typing <code>ped</code></li>
+</ol>
+
+<h2 id="virtualbox-should-already-be-setup">VirtualBox (should already be setup)</h2>
+
+<ol>
+  <li>Open your terminal and type <code>ls -a</code></li>
+  <li>Open .bashrc file in your editor: <code>gedit .bashrc &amp;</code></li>
+  <li>If it’s not already at the top of the file, add the following line to your .bashrc: <code>ped() { gedit "$@" &amp; }</code></li>
+  <li>Save the file, close the terminal, &amp; reopen the terminal</li>
+  <li>Try it out by typing <code>ped</code></li>
+</ol>
+
 </div>
-
-
-<div class="section-background-1">
-  <div class="container">
-    <h2>Learning Outcomes</h2>
-
-    
-      
-      <h3>Programming Python</h3>
-      <p>
-        
-      </p>
-      <p>Implement algorithms in python.</p>
-
-    
-
-  </div>
-</div>
-
-
-
-
-
-<div class="section-background-2">
-  <div class="container">
-  <h2>Readings</h2>
-
-    <div class="row">
-      
-        
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <h4><a href="/117-Su15/morea/09.oo/reading-TP.html">Object-Oriented Python</a></h4>
-            <p>Think Python Chapters 15-18</p>
-
-            <p>
-              
-              <span class="badge">33 pages</span>
-              
-            </p>
-          </div>
-        </div>
-      
-      
-      
-      
-      
-        
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <h4><a href="/117-Su15/morea/09.oo/reading-CS5.html">OOPs! Object-Oriented Programs</a></h4>
-            <p>CS5 Chapter 6</p>
-
-            <p>
-              
-              <span class="badge">11 pages</span>
-              
-            </p>
-          </div>
-        </div>
-      
-      
-      
-      
-      
-
-    </div>
-  </div>
-</div>
-
-
-
-<div class="section-background-1">
-  <div class="container">
-  <h2>Experiential Learning</h2>
-
-    <div class="row">
-      
-        
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <h4><a href="http://www.codecademy.com/en/tracks/python">HW12: Code Academy</a></h4>
-            <p>Introduction to Classes, Classes</p>
-
-            <p>
-              
-            </p>
-          </div>
-        </div>
-      
-      
-      
-      
-      
-        
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <h4><a href="/117-Su15/morea/09.oo/phw.html">PHW14</a></h4>
-            <p>Objects in Python</p>
-
-            <p>
-              
-              <span class="badge">by 6/24</span>
-              
-            </p>
-          </div>
-        </div>
-      
-      
-      
-      
-      
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
 
 
 
