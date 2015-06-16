@@ -2,7 +2,7 @@
 title: "Objects"
 published: true
 morea_coming_soon: false
-morea_id: dictionaries
+morea_id: oo
 morea_outcomes:
  - outcome-python
 morea_readings:
