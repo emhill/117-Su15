@@ -14,7 +14,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/oo.png
-morea_sort_order: 8
+morea_sort_order: 11
 ---
 
 Advanced data & control structures: sets, dictionaries, and list comprehensions
