@@ -2,7 +2,7 @@
 title: "Altogether Now"
 published: true
 morea_coming_soon: false
-morea_id: project2
+morea_id: final-project
 morea_outcomes:
  - outcome-python
  - outcome-7skills
