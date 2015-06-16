@@ -17,4 +17,4 @@ morea_icon_url: /morea/materials/oo.png
 morea_sort_order: 11
 ---
 
-Advanced data & control structures: sets, dictionaries, and list comprehensions
+Object-Oriented Programming in Python

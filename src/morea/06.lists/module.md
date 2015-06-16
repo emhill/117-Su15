@@ -16,7 +16,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/list.png
-morea_sort_order: 8
+morea_sort_order: 6
 ---
 
 0, 1, 2, GO!
