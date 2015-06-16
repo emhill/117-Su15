@@ -11,7 +11,7 @@ morea_readings:
  - reading-TP9
  - reading-cs5-5
 morea_experiences:
- - ca10
+ - ca-10
  - phw11
  - hw9
 morea_assessments:

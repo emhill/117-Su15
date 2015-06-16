@@ -9,6 +9,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP7-14
 morea_experiences:
+ - ca-8
  - phw10
 morea_assessments:
 morea_type: module

@@ -1,7 +1,7 @@
 ---
 title: "HW10: Code Academy"
 published: true
-morea_id: ca10
+morea_id: ca-10
 morea_type: experience
 morea_sort_order: 1
 morea_summary: "Student Becomes the Teacher"
