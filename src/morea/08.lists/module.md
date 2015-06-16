@@ -11,7 +11,7 @@ morea_readings:
  - reading-cs5-3
  - reading-TP-12
 morea_experiences:
- - ca-6
+ - ca-7
  - phw9
 morea_assessments:
 morea_type: module
