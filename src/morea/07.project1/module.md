@@ -1,5 +1,5 @@
 ---
-title: "Putting it Together"
+title: "Turtles"
 published: true
 morea_coming_soon: false
 morea_id: project-turtle
@@ -15,4 +15,4 @@ morea_icon_url: /morea/materials/logo-turtle.png
 morea_sort_order: 7
 ---
 
-Project 1 (Turtles)
+Project 1
