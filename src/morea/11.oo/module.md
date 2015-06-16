@@ -1,22 +1,19 @@
 ---
-title: "Data Structures"
+title: "Objects"
 published: true
 morea_coming_soon: false
 morea_id: dictionaries
 morea_outcomes:
  - outcome-python
- - outcome-7skills
 morea_readings:
- - reading-TP11
- - reading-TP9
- - reading-cs5-5
+ - reading-TP15
+ - reading-cs5-6
 morea_experiences:
- - ca-10
- - phw11
- - hw9
+ - ca-12
+ - phw14
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/materials/dictionary.jpg
+morea_icon_url: /morea/materials/oo.png
 morea_sort_order: 8
 ---
 
