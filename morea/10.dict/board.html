@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Board & Demo Notes | CSCI 117 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/117-Su15/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/117-Su15/css/style.css">
+  <link rel="stylesheet" href="/117-Su15/css/syntax.css">
+  <link rel="shortcut icon" href="/117-Su15/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/117-Su15/index.html"> CSCI 117 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/117-Su15/modules/">Modules</a></li>
+        
+          <li><a href="/117-Su15/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/117-Su15/readings/">Readings</a></li>
+        
+        
+          <li><a href="/117-Su15/experiences/">Experiences</a></li>
+        
+        
+          <li><a href="/117-Su15/assessments/">Assessments</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="board--demo-notes">Board &amp; Demo Notes</h1>
+
+<h2 id="examples-from-330">Examples from 3/30</h2>
+
+<ul>
+  <li><a href="ascii_dictionary.py">ascii_dictionary.py</a></li>
+  <li><a href="using_dictionary.py">using_dictionary.py</a></li>
+</ul>
+
+<p>How mant items in a list do you need to check when using <code>in</code>?</p>
+
+<p><a href="guess.JPG"><img src="guess.JPG" width="300" /></a></p>
+
+<p>A dictionary maps keys to values:</p>
+
+<p><a href="dict.JPG"><img src="dict.JPG" width="300" /></a></p>
+
+<p>Differences between python data structures: tuples, lists, dictionaries, sets</p>
+
+<p><a href="table.JPG"><img src="table.JPG" width="500" /></a></p>
+
+<p>Equivalen for loop to a list comprehension:</p>
+
+<p><a href="lc.JPG"><img src="lc.JPG" width="300" /></a></p>
+
+<h2 id="examples-from-41">Examples from 4/1</h2>
+
+<ul>
+  <li><a href="while.py">while.py</a></li>
+  <li><a href="whilevsfor.py">whilevsfor.py</a> </li>
+  <li><a href="while_practice.py">while_practice.py</a> – wrote in class</li>
+  <li><a href="loop.py">loop.py</a></li>
+  <li><a href="scope.py">scope.py</a></li>
+  <li><a href="data.zip">data.zip</a> (for the file examples below)</li>
+  <li><a href="file_read.py">file_read.py</a></li>
+  <li><a href="file_read2.py">file_read2.py</a></li>
+  <li><a href="file_read_while.py">file_read_while.py</a></li>
+  <li><a href="file_write.py">file_write.py</a></li>
+  <li><a href="avgData.py">avgData.py</a></li>
+  <li><a href="years_dictionary.py">years_dictionary.py</a></li>
+  <li><a href="years_dictionary2.py">years_dictionary2.py</a></li>
+  <li><a href="writeSumReport.py">writeSumReport.py</a></li>
+</ul>
+
+<h2 id="console-notes-41">Console Notes 4/1</h2>
+
+<pre><code>admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+1
+2
+3
+4
+5
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+1
+2
+3
+4
+5
+2
+5
+8
+11
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+A:
+1
+2
+3
+4
+5
+
+B:
+2
+5
+8
+11
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+A:
+1
+2
+3
+4
+5
+
+B:
+2
+5
+8
+11
+
+C:
+****
+****
+****
+admins-MacBook-Pro-3:09.dict emily$ ls
+ascii_dictionary.py  reading-TP.md
+avgData.py           reading-TP2.md
+board.md             reading-TP3.md
+ca.md                scope.py
+data                 slides.md
+data.zip             slides2.md
+file_read.py         using_dictionary.py
+file_read2.py        while.py
+file_read_while.py   while_practice.py
+file_write.py        whilevsfor.py
+loop.py              writeSumReport.py
+module.md            years_dictionary.py
+reading-CS5.md       years_dictionary2.py
+admins-MacBook-Pro-3:09.dict emily$ ls data
+alaska.dat       majors.dat       songs.txt
+famous_pairs.txt movies.txt       virginia.dat
+florida.dat      nodata.dat       years.dat
+grammy_noms.txt  oscars.txt       years2.dat
+majors.all.dat   report.dat
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs.txt", "r")
+&gt;&gt;&gt; data = dataFile.read()
+&gt;&gt;&gt; print(data)
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+
+&gt;&gt;&gt; data.upper()
+"ADELE'S ROLLING IN THE DEEP\nTAYLOR SWIFT'S MEAN\nFOSTER THE PEOPLE'S PUMPED UP KICKS\nMAROON 5 &amp; CHRISTINA AGUILERA'S MOVES LIKE JAGGER\nBRUNO MARS' DOO-WOPS &amp; HOOLIGANS\nKATY PERRY'S FIREWORK\nLADY GAGA'S BORN THIS WAY\nADELE'S SOMEONE LIKE YOU\n"
+&gt;&gt;&gt; dataFile.close()
+&gt;&gt;&gt; dataFile = open("data/songs.txt")
+&gt;&gt;&gt; data = dataFile.read()
+&gt;&gt;&gt; print(data)
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+
+&gt;&gt;&gt; dataFile.write("Flick of that Wrist\n")
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+io.UnsupportedOperation: not writable
+&gt;&gt;&gt; dataFile.close()
+&gt;&gt;&gt; dataFile = open("data/songs.txt", "a")
+&gt;&gt;&gt; dataFile.write("Flick of that Wrist\n")
+20
+&gt;&gt;&gt; dataFile.read()
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+io.UnsupportedOperation: not readable
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+Flick of that Wrist
+admins-MacBook-Pro-3:09.dict emily$ cp data/songs.txt data/songs2.txt 
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs2.txt", "w")
+&gt;&gt;&gt; dataFile.write("Sgt. Pepper's Lonely Hearts Club Band")
+37
+&gt;&gt;&gt; exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs2.txt 
+Sgt. Pepper's Lonely Hearts Club Bandadmins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+Flick of that Wrist
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs2.txt", "r")
+&gt;&gt;&gt; type(dataFile)
+&lt;class '_io.TextIOWrapper'&gt;
+&gt;&gt;&gt; print(dataFile)
+&lt;_io.TextIOWrapper name='data/songs2.txt' mode='r' encoding='UTF-8'&gt;
+&gt;&gt;&gt; exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ ls
+ascii_dictionary.py  reading-TP.md
+avgData.py           reading-TP2.md
+board.md             reading-TP3.md
+ca.md                scope.py
+data                 slides.md
+data.zip             slides2.md
+file_read.py         using_dictionary.py
+file_read2.py        while.py
+file_read_while.py   while_practice.py
+file_write.py        whilevsfor.py
+loop.py              writeSumReport.py
+module.md            years_dictionary.py
+reading-CS5.md       years_dictionary2.py
+admins-MacBook-Pro-3:09.dict emily$ ped file_read*
+admins-MacBook-Pro-3:09.dict emily$ open board.md 
+admins-MacBook-Pro-3:09.dict emily$ ll -rt
+total 224
+-rw-r--r--   1 emily  staff   933B Mar 30 10:02 years_dictionary2.py
+-rw-r--r--   1 emily  staff   1.0K Mar 30 10:02 years_dictionary.py
+-rw-r--r--   1 emily  staff   1.2K Mar 30 10:02 using_dictionary.py
+-rw-r--r--   1 emily  staff   218B Mar 30 10:02 slides.md
+-rw-r--r--   1 emily  staff   371B Mar 30 10:02 reading-TP3.md
+-rw-r--r--   1 emily  staff   488B Mar 30 10:02 reading-TP2.md
+-rw-r--r--   1 emily  staff   379B Mar 30 10:02 reading-TP.md
+-rw-r--r--   1 emily  staff   475B Mar 30 10:02 reading-CS5.md
+-rw-r--r--   1 emily  staff   650B Mar 30 10:02 ca.md
+-rw-r--r--   1 emily  staff   468B Mar 30 10:02 ascii_dictionary.py
+-rw-r--r--   1 emily  staff   1.7K Apr  1 10:59 writeSumReport.py
+-rw-r--r--   1 emily  staff   182B Apr  1 10:59 whilevsfor.py
+-rw-r--r--   1 emily  staff    72B Apr  1 10:59 while.py
+-rw-r--r--   1 emily  staff   224B Apr  1 10:59 slides2.md
+-rw-r--r--   1 emily  staff    91B Apr  1 10:59 scope.py
+-rw-r--r--   1 emily  staff   434B Apr  1 10:59 module.md
+-rw-r--r--   1 emily  staff    53B Apr  1 10:59 loop.py
+-rw-r--r--   1 emily  staff   575B Apr  1 10:59 file_write.py
+-rw-r--r--   1 emily  staff   195B Apr  1 10:59 file_read_while.py
+-rw-r--r--   1 emily  staff   554B Apr  1 10:59 file_read2.py
+-rw-r--r--   1 emily  staff   471B Apr  1 10:59 file_read.py
+-rw-r--r--   1 emily  staff    13K Apr  1 10:59 data.zip
+-rwxr-xr-x   1 emily  staff   1.2K Apr  1 10:59 board.md
+-rw-r--r--   1 emily  staff   1.1K Apr  1 10:59 avgData.py
+-rw-r--r--@  1 emily  staff   249B Apr  1 11:34 while_practice.py
+drwxr-xr-x  17 emily  staff   578B Apr  1 11:46 data
+admins-MacBook-Pro-3:09.dict emily$ 
+</code></pre>
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+       Last update on: <span>2015-06-16 13:00:19 -0400</span></p>
+    <p style="margin: 0">
+      8 modules
+      
+        | 3 outcomes
+      
+      
+        | 16 readings
+      
+      
+        | 28 experiences
+      
+      
+        | 4 assessments
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>

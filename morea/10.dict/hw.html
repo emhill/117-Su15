@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> PHW5 | CSCI 117 </title>
+  <title> HW9 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,53 +54,44 @@
 
 
 <div class="container">
-  <h1 id="practice-hw5-input--ifs">Practice HW5: Input &amp; Ifs</h1>
+  <h1 id="hw9-word-frequencies">HW9: Word Frequencies</h1>
 
-<p>In this practice HW you will create 3 programs that explore getting user input and using if statements.</p>
+<p>Write a program <code>frequency.py</code> that reads in <a href="data/turing.txt">the file <code>turing.txt</code></a> and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, “the” occurs 10 times and would be printed out before “Alan”, which occurs just once.</p>
 
-<p><span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: &lt;15 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 15-30 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 30-45 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 45+ min</span>
-</span></p>
+<p>Your program should not take in any user input, just read in the hard-coded filename <code>"turing.txt"</code>. You may use any example template to read in the file (for loop, while loop, etc).</p>
 
-<h2 id="temperaturepy">temperature.py</h2>
-
-<p>Create a program that asks the user for the current temperature and outputs what they should wear. Your program should meet the following requirements:</p>
+<p><strong><em>Recommended Development Steps:</em></strong></p>
 
 <ol>
-  <li>Has a variable, <code>temp</code>, that stores the temperature input from the user</li>
-  <li>Requests the user to enter the temperature</li>
-  <li>Displays the following information based on the temperature range:
+  <li>Read in the file &amp; print it back out.</li>
+  <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.
     <ul>
-      <li><strong>Above 90</strong>: “Whoa, it’s boiling!”</li>
-      <li><strong>Above or equal to 80</strong>: “It’s getting hot”</li>
-      <li><strong>Below 80</strong>: “A perfect day”</li>
-      <li><strong>Below 60</strong>: “Don’t forget your sweater”</li>
-      <li><strong>Below freezing</strong>: “Brrr, you need a coat!”</li>
+      <li>To check your work, use the UNIX command <code>python3 frequency.py | sort | uniq -c | sort -rn</code> to give a list of all the words sorted by frequency. </li>
+      <li>Make sure you don’t see any unwanted values like punctuation or spaces. If you do, tweak your program to get your desired output. (See hints below.)</li>
+      <li>Your next step is to implmement the above UNIX command in your python program using a dictionary.</li>
     </ul>
   </li>
+  <li>Create a frequency dictionary and add each word to it: <code>freq[word] = 1</code>. Print out the dictionary.</li>
+  <li>Count the number of words (see hints below). Print out the dictionary.</li>
+  <li>Sort the dictionary by values before printing. (See hints below.)</li>
 </ol>
 
-<p>Only one phrase should be displayed to the user for any given temperature input. Make sure to test your program with multiple temperatures.</p>
+<p><strong><em>Hints:</em></strong></p>
 
-<h2 id="absolutevaluepy">absolute_value.py</h2>
+<ul>
+  <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
+  <li>Lowercase your words so that “the” is counted the same as “The”.</li>
+  <li>Don’t forget to replace punctuation so “Alan” is counted the same as “Alan,”. I recommend the <a href="http://www.tutorialspoint.com/python/string_replace.htm"><code>replace</code> function</a> for this. You can use a loop on a string to replace many characters.  </li>
+  <li>When counting words with a dictionary, you may need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it’s not, initialize it to 1. If you are using the <code>count</code> function you may not encounter this issue.</li>
+  <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key. For more information, see <a href="http://stackoverflow.com/a/613218">this answer on stack overflow</a></li>
+</ul>
 
-<p>Create a program that asks the user for a number and prints its absolute value <strong><em>without</em></strong> using any python functions (in other words, you should use an if statement). </p>
-
-<h2 id="ismultiplepy">is_multiple.py</h2>
-
-<p>Create a program that asks the user for a whole number and prints whether it’s a multiple of 5. Make sure to test the program by inputting numbers that are multiples of 5 as well as those that aren’t multiples of 5. (<em>Hint</em>: what arithmetic operator can you use to determine whether a number is a multiple of another?)</p>
-
-<!--
-## Demonstration
-
+<!--## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 <div class="video-container">
-  <iframe  src="http://www.youtube.com/embed/gHFuYMWDa28" frameborder="0" allowfullscreen></iframe>
+  <iframe  src="http://www.youtube.com/embed/FMj6DvHxJw8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Standard Practice HW Caveats
@@ -121,6 +112,7 @@ have not achieved at least Av (Average) performance. If so, be sure to:
   * Reset your timer.
 
 Feel free to keep trying until you make Rx if that’s of interest to you.-->
+
 
 </div>
 
