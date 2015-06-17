@@ -56,7 +56,7 @@
 <div class="container">
   <h1 id="practice-hw12-list-comprehensions">Practice HW12: List Comprehensions</h1>
 
-<p>In this practice HW you will …</p>
+<p>In this practice HW you will explore writing some list comprehensions.</p>
 
 <!--<span class="h4">
   <span style="padding: 2px" class="label label-success">Rx: <45 min</span>
@@ -66,61 +66,23 @@
 </span>
 -->
 
-<!--## sets.py
+<p>Write python code (as a program or in the python interpreter) that prints out the following using list comprehensions of the form:</p>
 
-Create a program `sets.py` that declares the following set:
+<pre><code>print([c for x in sequence])
+</code></pre>
 
-`s = {"A", "B", "C", "D", "E"}`
+<p>where c is the computation and x is an element in a sequence. Remember that you can also put an <code>if</code> after the sequence to further restrict what elements are added to the list.</p>
 
-and prints a random element of the set until the first element is sampled. In other words, the while loop continues printing letters in the set `s` until "A" is the next letter. The output should have no "A"'s.
+<p>You should be able to print:</p>
 
-Then, create another set:
-
-`r = {"A", "C", "E", "G"}`
-
-and print the results of the following [set operations](https://docs.python.org/3.4/library/stdtypes.html#set): union, intersection, and difference.
-
-***Hints:***
-
- * The following code randomly selects an element from a set:
-
-	import random
-	
-	s = {"A", "B", "C", “D”, “E”}
-	print(random.sample(s, 1))
- 
- * For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
- 
-* I recommend following the sentinel while loop pattern:
-
-      value = initialize
-      while value != sentinel:
-        process value
-        value = updated value
-
-***Recommended Development Steps:***
-
-1. Create the set `s` and print it out
-2. Print out a random sample of 1 element from `s` instead (see hints above)
-3. Use the sentinal template in the hints above to create a while loop that prints out a random letter until the value is "A"
-4. Create the set `r` and print out the union with `s`
-5. Print out the intersection and difference
-
-
-## dictionary.py
-
-Create a program `dictionary.py` that creates a simple dictionary with two keys, even & odd, that stores the **set** of even & odd numbers from 1 to 10 and prints it out.
-
-***Hints:***
-
- * Use the [`set()` function](https://docs.python.org/3.4/library/stdtypes.html#set) to initialize an empty set.
-
-***Recommended Development Steps:***
-
-1. Write a loop that prints out the numbers from 1 to 10
-2. In this loop, print out whether the number is even or odd
-3. Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.
-4. Replace your set variables by adding them to a dictionary `d` instead. For example, if you had a set named `even`, replace every occurrence of that variable with `d['even']`. Make sure you initialize `d` to be an empty dictionary (`d = {}`). Print out the dictionary after your loop to confirm the behavior is the same as in the prior step.-->
+<ul>
+  <li>twelve 12’s</li>
+  <li>the absolute values from -10 to 10</li>
+  <li>the even numbers from 0 to 100</li>
+  <li>the perfect squares from 0 to 100</li>
+  <li>the number of odd numbers in the range of 0 to 100</li>
+  <li>the number of vowels in the string “Hello, there!”</li>
+</ul>
 
 <!--## Demonstration
 
@@ -163,7 +125,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-06-17 12:17:59 -0400</span></p>
+       Last update on: <span>2015-06-17 15:03:57 -0400</span></p>
     <p style="margin: 0">
       10 modules
       
