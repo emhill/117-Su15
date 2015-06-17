@@ -30,7 +30,9 @@ and print the results of the following [set operations](https://docs.python.org/
 
 ***Hints:***
 
- * The following code randomly selects an element from a set:	import random		s = {"A", "B", "C", “D”, “E”}	print(random.sample(s, 1)) 
+ * The following code randomly selects an element from a set:
+
+      import random            s = {"A", "B", "C", “D”, “E”}            print(random.sample(s, 1)) 
  * For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
  
 * I recommend following the sentinel while loop pattern:
