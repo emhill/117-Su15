@@ -75,7 +75,7 @@ Instead of reordering the rows, you want to consider how the pixels in the rows 
 
 ## Submission
 
-Make sure your `image_fun.py` file contains 4 additional functions: `grayscale`, `binarize`, `flipVert`, and `flipHorz`. Be sure to test them all at the bottom of the file.
+Make sure your `image_fun.py` file contains 4 additional functions: `grayscale`, `binarize`, `flipVert`, and `flipHorz`. Be sure to test them all at the bottom of the file. Make sure you've added your name to the comments at the top of the file, that your program contains comments and follows good programming style.
 
 Once you’re satisfied that your programs are working correctly, zip it for submission:
 
