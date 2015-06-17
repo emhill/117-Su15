@@ -13,6 +13,7 @@ morea_readings:
 morea_experiences:
  - ca-10
  - phw11
+ - phw12
  - hw9
 morea_assessments:
 morea_type: module
