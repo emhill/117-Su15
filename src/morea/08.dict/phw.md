@@ -12,7 +12,7 @@ morea_labels:
 
 In this practice HW you will create 2 programs that use data structures (i.e., sets, lists, tuples, and dictionaries). ***Make sure to read the hints & recommended development steps for each program.***
 
-<!--{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}-->
+{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}
 
 ## sets.py
 
@@ -30,10 +30,10 @@ and print the results of the following [set operations](https://docs.python.org/
 
 ***Hints:***
 
- * The following code randomly selects an element from a set:
+* The following code randomly selects an element from a set:
 
       import random            s = {"A", "B", "C", “D”, “E”}            print(random.sample(s, 1)) 
- * For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
+* For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
  
 * I recommend following the sentinel while loop pattern:
 
@@ -67,11 +67,11 @@ Create a program `dictionary.py` that creates a simple dictionary with two keys,
 4. Replace your set variables by adding them to a dictionary `d` instead. For example, if you had a set named `even`, replace every occurrence of that variable with `d['even']`. Make sure you initialize `d` to be an empty dictionary (`d = {}`). Print out the dictionary after your loop to confirm the behavior is the same as in the prior step.
 
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
-{% include youtube.html id="FMj6DvHxJw8" %}
+{% include youtube.html id="hogc3cXLbRU" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
 
