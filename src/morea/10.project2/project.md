@@ -75,10 +75,10 @@ Instead of reordering the rows, you want to consider how the pixels in the rows 
 
 ## Submission
 
+Make sure your `image_fun.py` file contains 4 additional functions: `grayscale`, `binarize`, `flipVert`, and `flipHorz`. Be sure to test them all at the bottom of the file.
+
 Once you’re satisfied that your programs are working correctly, zip it for submission:
 
   * `cd ..`
   * `zip project2_uLogin.zip project2_uLogin/*`
-
-----
-*Adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*
+*Assignment adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*
