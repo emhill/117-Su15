@@ -14,6 +14,8 @@ morea_labels:
      * `image_fun.py`: where you will write your project code
      * `png.py`: library to work with png files **DO NOT MODIFY**
      * `png_helper.py`: helper functions to manipulate png files **DO NOT MODIFY**
+     
+**Rename the folder** so that it is `project2_uLogin` rather than just `project2`. If you are working with a partner, make sure both uLogins are listed.
 
 Next, try running the code: `python image_fun.py`. **Make sure to run with python, NOT python3.** If successful, when you `ls` you should see a new file, `out2.png`. Open `out2.png` and `out.png` to make sure they look the same.
 
@@ -65,6 +67,18 @@ You will use the same basic structure as the earlier problems--one main function
 
 ### flipHoriz
 
-Write a function `flipHoriz` that flips the image on its vertical axis. This should work in the same way as `flipVert` but flip in the horizontal direction. Instead of reordering the rows, you want to consider how the pixels in the rows reorder when an image is flipped horizontally. Note: flipping in.png horizontally has no effect because it is symmetric about the vertical axis... 
+Write a function `flipHoriz` that flips the image on its vertical axis. This should work in the same way as `flipVert` but flip in the horizontal direction. For example:
+
+<!--<img src="spamin.png" width="200">--> <img src="fliphspam.png" width="200">
+
+Instead of reordering the rows, you want to consider how the pixels in the rows reorder when an image is flipped horizontally. Note: flipping `in.png` horizontally has no effect because it is symmetric about the vertical axis.
+
+## Submission
+
+Once you’re satisfied that your programs are working correctly, zip it for submission:
+
+  * `cd ..`
+  * `zip project2_uLogin.zip project2_uLogin/*`
+
 ----
 *Adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*
