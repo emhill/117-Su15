@@ -52,7 +52,7 @@ Create a program `stat.py` that finds the mean, median, and mode in a list of nu
 
 ## Solution
 
-When you've attempted the PHW, you can see my [solution](stat.py]).
+When you've attempted the PHW, you can see my [solution](stat.py).
 
 <!--
 		
