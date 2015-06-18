@@ -53,7 +53,7 @@ Create a program `stat.py` that finds the mean, median, and mode in a list of nu
 ## Solution
 
 When you've attempted the PHW, you can see my [solution](stat.py]).
-
+<!--
 		
 	def mean(numbers):
 		return sum(numbers) / len(numbers)
@@ -96,4 +96,4 @@ When you've attempted the PHW, you can see my [solution](stat.py]).
 	print(numbers)
 	print("Mean: ", mean(numbers) )
 	print("Median: ", median(numbers) )
-	print("Mode: ", mode(numbers) )-->).))
+	print("Mode: ", mode(numbers) )-->
