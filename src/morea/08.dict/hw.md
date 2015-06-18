@@ -33,7 +33,7 @@ Your program should not take in any user input, just read in the hard-coded file
   * When counting words with a dictionary, you may need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it's not, initialize it to 1. If you are using the `count` function you may not encounter this issue.
   * You can use the built-in [sorted function](https://wiki.python.org/moin/HowTo/Sorting/) to sort by values. The [`operator.itemgetter` function](https://docs.python.org/3/library/operator.html#operator.itemgetter) makes a good key. For more information, see [this answer on stack overflow](http://stackoverflow.com/a/613218)
 
-When completed, your output should look something like:
+When completed, your program's output should look something like:
 
 	('the', 10)
 	('of', 3)
