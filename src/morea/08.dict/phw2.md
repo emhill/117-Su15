@@ -12,7 +12,7 @@ morea_labels:
 
 In this practice HW you will explore writing some list comprehensions.
 
-<!--{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}-->
+{% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-15 min" DNF="15+ min" %}
 
 Write python code (as a program or in the python interpreter) that prints out the following using list comprehensions of the form:
 
@@ -38,3 +38,24 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include wod-warning.html %}-->
 
+## Solution
+
+When you've attempted the PHW, you can see my solution below.
+
+    >>> print([12 for x in range(12)])
+    [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+    
+	>>> print([abs(x) for x in range(-10,11)])
+	[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	
+	>>> print([x for x in range(101) if x % 2 == 0])
+	[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
+	
+	>>> print([x**2 for x in range(1, 101) if x**2 < 100])
+	[1, 4, 9, 16, 25, 36, 49, 64, 81]
+	
+	>>> print(sum([1 for x in range(101) if x % 2 == 1]))
+	50
+	
+	>>> print(sum([1 for x in "Hello, there!" if x in "AEIOUaeiou"]))
+	4
