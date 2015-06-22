@@ -46,7 +46,7 @@ Since luminance is an indication of how white/black a pixel is, having your help
 
 ### binarize
 
-Write a function called `binarize( thresh )`, which binarizes an image (makes it black and white) with a threshold `thresh` given by the user. This threshold is a brightness value between 0 and 255 - if a pixel is greater than the threshold value, then it should turn white, and if its less than the threshold value, then it should turn black. So, a threshold value of 0 means that your photo will turn white and a threshold of 255 means your photo will turn black. For example:
+Write a function called `binarize`, which binarizes an image (makes it black and white) with a threshold `thresh` given by the user as a parameter. This threshold is a brightness value between 0 and 255 - if a pixel is greater than the threshold value, then it should turn white, and if its less than the threshold value, then it should turn black. So, a threshold value of 0 means that your photo will turn white and a threshold of 255 means your photo will turn black. For example:
 
 <img src="spamin.png" width="200"> <img src="binaryspam.png" width="200">
 
