@@ -10,8 +10,7 @@ morea_experiences:
  - install-mac
  - install-windows
  - unix-custom
- - hw1
- - hw2
+ - phw1
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/tux.jpg

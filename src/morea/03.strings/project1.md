@@ -1,14 +1,14 @@
 ---
-title: "HW4"
+title: "Project 1"
 published: true
-morea_id: hw4
+morea_id: p1
 morea_type: experience
 morea_sort_order: 5
 morea_summary: "Using Strings & Functions"
 morea_labels:
- - due 6/3
+ - due 7/13
 ---
-# HW4: Using Strings & Functions
+# Project 1: Using Strings & Functions
 <!--
 {% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}-->
 

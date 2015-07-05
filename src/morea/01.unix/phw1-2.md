@@ -1,14 +1,16 @@
 ---
-title: "Practice HW1: UNIX & Hardware"
+title: "Practice HW2"
 published: true
-morea_id: hw1
+morea_id: hw2
 morea_type: experience
 morea_sort_order: 4
-morea_summary: "Practice HW: UNIX & Hardware"
+morea_summary: "UNIX, Hardware, & Python Syntax"
 morea_labels:
- - due 5/27
+ - due 7/9
 ---
 # Practice HW1: UNIX & Hardware
+
+{% include wod-times.html Rx="<10 min" Av="10-15 min" Sd="15-20 min" DNF="20+ min" %}
 
 ## Exploring Hardware & Binary
 
@@ -45,7 +47,6 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
  - **Windows**: [http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows](http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
  - **Mac**: Press Command (⌘)-Shift-3. The screenshot is added to your desktop.
 
-{% include wod-times.html Rx="<10 min" Av="10-15 min" Sd="15-20 min" DNF="20+ min" %}
 
 ## Demonstration
 
