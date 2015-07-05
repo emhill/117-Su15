@@ -45,10 +45,11 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
 ## Exploring Hardware
 
 Fill in the following blanks with: motherboard, processor, memory, hard drive:
-    1. variables are stored in/on ________
-    1. the ________ executes program statements
-    1. when a program is not being executed, it resides in/on ________
-    1. a ________ connects all the components of a computer with a bus
+
+  1. variables are stored in/on ________
+  1. the ________ executes program statements
+  1. when a program is not being executed, it resides in/on ________
+  1. a ________ connects all the components of a computer with a bus
 
 ## Running your first python program
 
