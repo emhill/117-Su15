@@ -47,7 +47,7 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
  - **Windows**: [http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows](http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
  - **Mac**: Press Command (⌘)-Shift-3. The screenshot is added to your desktop.
 
-
+<!--
 ## Demonstration
 
 Once you've finished doing the HW a single time, watch me do it:
@@ -62,4 +62,4 @@ Once you've finished doing the HW a single time, watch me do it:
 
 ### My Final UNIX Screenshot
 
-<a href="screenshot.png"><img src="screenshot.png" width="200"/></a>
+<a href="screenshot.png"><img src="screenshot.png" width="200"/></a>-->

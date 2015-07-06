@@ -60,12 +60,12 @@ Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and 
   * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.
   * You should add the file names `text1.txt`, `text2.txt`, and `text3.txt` to a list, so you don't have to copy & paste your code.
 
-## Demonstration
+<!--## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it for `while.py` and `count.py`:
 
 {% include youtube.html id="2GkDAxZOnt8" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
 

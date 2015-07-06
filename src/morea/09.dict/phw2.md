@@ -38,7 +38,7 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include wod-warning.html %}-->
 
-## Solution
+<!--## Solution
 
 When you've attempted the PHW, you can see my solution below.
 
@@ -58,4 +58,4 @@ When you've attempted the PHW, you can see my solution below.
 	50
 	
 	>>> print(sum([1 for x in "Hello, there!" if x in "AEIOUaeiou"]))
-	4
+	4-->
