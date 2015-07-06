@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 5
 morea_summary: "Binary & Python Variables"
 morea_labels:
- - due 7/9
+
 ---
 # Practice HW2: Binary, UNIX, & Python Variables
 

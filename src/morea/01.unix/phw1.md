@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 5
 morea_summary: "UNIX, Hardware, & Syntax"
 morea_labels:
- - due 7/8
+
 ---
 # Practice HW1: UNIX, Hardware, & Syntax
 
