@@ -83,12 +83,14 @@ Once you've finished doing the HW a single time, watch me do it:
 
 {% include youtube.html id="CIC9W_H1TjA" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
 
-### Solutions to Hardware Questions
-
-<a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="200"/></a>
+## Solutions
 
 ### My Final UNIX Screenshot
 
-<a href="screenshot.png"><img src="screenshot.png" width="200"/></a>-->
+<a href="screenshot.png"><img src="screenshot.png" width="400"/></a>
+
+### Solutions to Hardware Questions
+
+<a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="400"/></a>
