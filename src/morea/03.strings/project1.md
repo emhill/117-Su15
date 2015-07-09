@@ -14,8 +14,8 @@ morea_labels:
 
 ## Setup
 
-  * `mkdir hw4_uLogin`
-  * `cd hw4_uLogin`
+  * `mkdir project1_uLogin`
+  * `cd project1_uLogin`
   * `touch bye.py convert.py fun.py string.py`
 
 *Don't forget to add a comment at the top of each program with your name and what the program does.*
@@ -77,6 +77,6 @@ For example:
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
   - `cd ..`
-  - `zip hw4_uLogin.zip hw4_uLogin/*`
+  - `zip project1_uLogin.zip project1_uLogin/*`
 
 Upload your zip file to Google Classroom.
