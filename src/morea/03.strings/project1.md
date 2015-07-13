@@ -52,12 +52,13 @@ For example:
 Write a program `fun.py` that takes a number as input from the user and prints out the following information using the math module:
 
   1. The ceiling of the number (e.g., `ceiling(3.75)` is 4)
-  1. The factorial of the number
   1. The number rounded to 0 decimal places
+  1. The factorial of the rounded number
+
 
 ## string.py
 
-Write a program `string.py` that takes a string as input form the user and prints the string after performing the following operations:
+Write a program `string.py` that takes a string as input from the user and prints the string after performing the following two mangle operations:
 
   1. Swaps upper and lower case letters
   1. Removes the second and second to last characters
