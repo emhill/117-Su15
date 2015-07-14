@@ -1,5 +1,5 @@
 ---
-title: "PHW5"
+title: "PHW4"
 published: true
 morea_id: phw5
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "Input & Ifs"
 morea_labels:
  - by 6/3
 ---
-# Practice HW5: Input & Ifs
+# Practice HW4: Input & Ifs
 
 In this practice HW you will create 3 programs that explore getting user input and using if statements.
 

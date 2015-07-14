@@ -1,5 +1,5 @@
 ---
-title: "PHW8"
+title: "PHW7"
 published: true
 morea_id: phw8
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "Go with the (control) flow"
 morea_labels:
  - by 6/8
 ---
-# Practice HW8: Go with the (control) flow
+# Practice HW7: Go with the (control) flow
 
 Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. ***You don’t need to run the program to complete the assignment.***
 

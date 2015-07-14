@@ -1,5 +1,5 @@
 ---
-title: "PHW6"
+title: "PHW5"
 published: true
 morea_id: phw6
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "For loops"
 morea_labels:
  - by 6/3
 ---
-# Practice HW6: For loops
+# Practice HW5: For loops
 
 In this practice HW you will create 2 programs that use for loops.
 

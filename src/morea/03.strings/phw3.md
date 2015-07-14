@@ -1,14 +1,14 @@
 ---
-title: "Practice HW4"
+title: "Practice HW3"
 published: true
-morea_id: phw4
+morea_id: phw3
 morea_type: experience
 morea_sort_order: 5
 morea_summary: "Input, Strings, and Using Functions"
 morea_labels:
  - due 6/1
 ---
-# Practice HW4: Input, Strings, and Using Functions
+# Practice HW3: Input, Strings, and Using Functions
 
 {% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}
 

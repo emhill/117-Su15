@@ -8,7 +8,7 @@ morea_readings:
  - reading-TP2
 morea_experiences:
  - ca-3-4
- - phw4
+ - phw3
  - p1
 morea_assessments:
 morea_type: module

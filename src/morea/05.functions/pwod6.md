@@ -1,5 +1,5 @@
 ---
-title: "PHW7"
+title: "PHW6"
 published: true
 morea_id: phw7
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "Functions: Putting it all together"
 morea_labels:
  - by 6/4
 ---
-# Practice HW7: Functions
+# Practice HW6: Functions
 
 In this practice HW you will create 5 programs that take code we've previously written for other PHWs and turn them into functions.
 
