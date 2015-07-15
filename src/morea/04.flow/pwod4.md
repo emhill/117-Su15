@@ -39,7 +39,7 @@ Create a program that asks the user for a whole number and prints whether it's a
 
 
 
-<!--
+
 ## Demonstration
 
 
@@ -47,4 +47,4 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="gHFuYMWDa28" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
