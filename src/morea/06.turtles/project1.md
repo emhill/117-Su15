@@ -18,6 +18,7 @@ In the beginning of the semester we drew interesting shapes on code.org. In this
 An important skill as a computer scientist is the ability to learn how to use an existing API library by reading documentation, finding good API usage examples on the internet, and adapting those examples to meet your needs. In this project, you will begin building these skills to help you make the transition from the classroom to practice.
 
   * [Detailed project description](project2.docx)
+  * [Python turtle documentation](https://docs.python.org/3.4/library/turtle.html#overview-of-available-turtle-and-screen-methods)
   * **VirtualBox users:** use `python` (*not* `python3`) to run your turtle programs
 
 If you get stuck, please e-mail me a zip file of your project and a description of:
