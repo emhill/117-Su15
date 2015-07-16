@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 5
 morea_summary: "Using Strings & Functions"
 morea_labels:
- - due 7/13
+
 ---
 # Project 1: Using Strings & Functions
 <!--

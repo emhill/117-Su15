@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 6
 morea_summary: "Functions: Putting it all together"
 morea_labels:
- - by 6/4
+
 ---
 # Practice HW6: Functions
 
@@ -41,6 +41,16 @@ Write a function `absolute_value` that takes a number as a parameter and returns
 ## is_multiple.py
 
 Write a function `is_multiple` that takes a number and a multiple as parameters and returns true if the number is a multiple (i.e., if `number % multiple` is 0). Test that your function works by calling it twice, once with a multiple and once with a number that is not its multiple, and print the results. *Your program should **not** get any input from the user.*
+
+For example:
+
+| **call** | **returns** |
+|:---:|:---:|
+| `is_multiple(10, 5)` | True | 
+| `is_multiple(10, 7)` | False | 
+| `is_multiple(8, 4)` | True | 
+| `is_multiple(8, 3)` | False | 
+
 
 ## rectangle.py
 

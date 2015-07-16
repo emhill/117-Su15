@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 5
 morea_summary: "Input & Ifs"
 morea_labels:
- - by 6/3
+
 ---
 # Practice HW4: Input & Ifs
 
