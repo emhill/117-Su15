@@ -12,8 +12,8 @@ morea_readings:
  - reading-TP36
 morea_experiences:
  - ca-5
+ - phw4
  - phw5
- - phw6
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/tree.png

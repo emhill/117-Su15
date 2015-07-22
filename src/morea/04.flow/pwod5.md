@@ -1,12 +1,12 @@
 ---
 title: "PHW5"
 published: true
-morea_id: phw6
+morea_id: phw5
 morea_type: experience
 morea_sort_order: 6
 morea_summary: "For loops"
 morea_labels:
- - by 6/3
+
 ---
 # Practice HW5: For loops
 
