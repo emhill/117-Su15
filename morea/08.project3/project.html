@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Project 2 | CSCI 117 </title>
+  <title> Project 3 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,11 +54,11 @@
 
 
 <div class="container">
-  <h1 id="project-2-image-manipulation">Project 2: Image Manipulation</h1>
+  <h1 id="project-3-image-manipulation">Project 3: Image Manipulation</h1>
 
 <p>In this project you will have the opportunity to programmatically manipulate png image files with python.</p>
 
-<p>First, download <a href="project2.zip">project2.zip</a> and unzip it. You should see the following files:</p>
+<p>First, download <a href="project3.zip">project3.zip</a> and unzip it. You should see the following files:</p>
 
 <ul>
   <li><strong>Test images</strong>: <code>arch.png</code>, <code>hmcOlinSmall.png</code>, <code>in.png</code>, <code>out.png</code>, <code>spam.png</code>, <code>trees.png</code></li>
@@ -134,15 +134,40 @@
 
 <p>Instead of reordering the rows, you want to consider how the pixels in the rows reorder when an image is flipped horizontally. Note: flipping <code>in.png</code> horizontally has no effect because it is symmetric about the vertical axis.</p>
 
+<h3 id="mirrorvert">mirrorVert</h3>
+
+<p>Write a function <code>mirrorVert</code> that mirrors the image across its horizontal axis (i.e., so that the top part is mirrored upside down on the bottom of the image). The easiest approach is to replace the bottom half of <code>Im_pix</code> with the reversed rows from the top half. To do this, you’ll use the built-in function <code>getWH()</code> in <code>png_helper.py</code> to get the height of <code>Im_pix</code>. For example:</p>
+
+<p><img src="in.png" /> <img src="mirrorV.png" /></p>
+
+<p>Warning: You cannot create a copy of a list with <code>list1 = list2</code>, because instead of creating a new object, Python will just create a new reference to the old list. However, list slicing does create new copies of data, so consider how you could combine two slices, each of half the size of the original list, in order to mirror the image…</p>
+
+<h3 id="mirrorhoriz">mirrorHoriz</h3>
+
+<p>Write a function <code>mirrorHoriz</code> that mirrors the image across its vertical axis. This should work similar to <code>mirrorVert</code>, but instead of replacing the bottom rows with the reversed top rows (as you did in <code>mirrorVert</code>), you’ll replace the last half of the pixels in every row with the reversed first half of the pixels. For example:</p>
+
+<!--<img src="spamin.png" width="200">-->
+<p><img src="mirrorH.png" width="200" /></p>
+
+<p><em>(The bigger question: which side of the SPAM can do you open?)</em></p>
+
+<h3 id="scale">scale</h3>
+
+<p>Write a function <code>scale that</code> scales the image to half of each of its original dimensions (this will be a quarter of its original area). The easiest way to do this is to eliminate every other pixel in each row (scaling the image horizontally) <strong>and</strong> eliminate every other row (scaling the image vertically). </p>
+
+<h2 id="extra-credit">Extra Credit</h2>
+
+<p>Make your own transformations! Make sure to comment.</p>
+
 <h2 id="submission">Submission</h2>
 
-<p>Make sure your <code>image_fun.py</code> file contains 4 additional functions: <code>grayscale</code>, <code>binarize</code>, <code>flipVert</code>, and <code>flipHorz</code>. Be sure to test them all at the bottom of the file. Make sure you’ve added your name to the comments at the top of the file, that your program contains comments and follows good programming style.</p>
+<p>Make sure your <code>image_fun.py</code> file contains 7 additional functions: <code>grayscale</code>, <code>binarize</code>, <code>flipVert</code>, <code>flipHorz</code>, <code>mirrorVert</code>, <code>mirrorHoriz</code>, and <code>scale</code>. Be sure to test them all at the bottom of the file. Make sure you’ve added your name to the comments at the top of the file, that your program contains comments and follows good programming style.</p>
 
 <p>Once you’re satisfied that your programs are working correctly, zip it for submission:</p>
 
 <ul>
   <li><code>cd ..</code></li>
-  <li><code>zip project2_uLogin.zip project2_uLogin/*</code></li>
+  <li><code>zip project3_uLogin.zip project3_uLogin/*</code></li>
 </ul>
 
 <p><em>Assignment adapted from <a href="https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010">Harvey Mudd’s CS 5 Fun with Images</a>.</em></p>
@@ -160,7 +185,7 @@
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-07-22 11:57:43 -0400</span></p>
+       Last update on: <span>2015-07-22 12:42:26 -0400</span></p>
     <p style="margin: 0">
       11 modules
       
