@@ -12,8 +12,8 @@ morea_readings:
  - reading-TP4
 morea_experiences:
  - ca6
+ - phw6
  - phw7
- - phw8
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/fx.jpg
