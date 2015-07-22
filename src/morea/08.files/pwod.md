@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 10
 morea_summary: "Files & While"
 morea_labels:
- - by 6/15
+
 ---
 # Practice HW10: Files & While
 

@@ -1,14 +1,14 @@
 ---
-title: "PHW9"
+title: "PHW8"
 published: true
 morea_id: phw9
 morea_type: experience
 morea_sort_order: 8
 morea_summary: "Recursion & Lists"
 morea_labels:
- - by 6/11
+
 ---
-# Practice HW9: Recursion & Lists
+# Practice HW8: Recursion & Lists
 
 In this practice HW you will create 3 programs that use strings, lists, and recursion.
 
