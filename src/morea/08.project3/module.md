@@ -8,7 +8,7 @@ morea_outcomes:
  - outcome-7skills
 morea_readings:
 morea_experiences:
- - project2
+ - project3
  - phw13
 morea_assessments:
 morea_type: module

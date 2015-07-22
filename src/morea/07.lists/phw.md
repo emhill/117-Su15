@@ -1,14 +1,14 @@
 ---
-title: "PHW12"
+title: "PHW9"
 published: true
-morea_id: phw12
+morea_id: phw9
 morea_type: experience
 morea_sort_order: 18
 morea_summary: "List Comprehensions"
 morea_labels:
- - by 6/18
+
 ---
-# Practice HW12: List Comprehensions
+# Practice HW9: List Comprehensions
 
 In this practice HW you will explore writing some list comprehensions.
 

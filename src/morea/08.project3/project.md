@@ -1,15 +1,15 @@
 ---
-title: "Project 2"
+title: "Project 3"
 published: true
-morea_id: project2
+morea_id: project3
 morea_type: experience
 morea_sort_order: 7
 morea_summary: "Image Manipulation"
 morea_labels:
- - due 6/25
+
 ---
 
-# Project 2: Image ManipulationIn this project you will have the opportunity to programmatically manipulate png image files with python.First, download [project2.zip](project2.zip) and unzip it. You should see the following files:
+# Project 3: Image ManipulationIn this project you will have the opportunity to programmatically manipulate png image files with python.First, download [project3.zip](project3.zip) and unzip it. You should see the following files:
   * **Test images**: `arch.png`, `hmcOlinSmall.png`, `in.png`, `out.png`, `spam.png`, `trees.png`  * Programs:
      * `image_fun.py`: where you will write your project code
      * `png.py`: library to work with png files **DO NOT MODIFY**
@@ -73,12 +73,36 @@ Write a function `flipHoriz` that flips the image on its vertical axis. This sho
 
 Instead of reordering the rows, you want to consider how the pixels in the rows reorder when an image is flipped horizontally. Note: flipping `in.png` horizontally has no effect because it is symmetric about the vertical axis.
 
+### mirrorVert
+
+Write a function `mirrorVert` that mirrors the image across its horizontal axis (i.e., so that the top part is mirrored upside down on the bottom of the image). The easiest approach is to replace the bottom half of `Im_pix` with the reversed rows from the top half. To do this, you'll use the built-in function `getWH()` in `png_helper.py` to get the height of `Im_pix`. For example:
+
+<img src="in.png"> <img src="mirrorV.png">
+
+Warning: You cannot create a copy of a list with `list1 = list2`, because instead of creating a new object, Python will just create a new reference to the old list. However, list slicing does create new copies of data, so consider how you could combine two slices, each of half the size of the original list, in order to mirror the image...
+
+### mirrorHoriz
+
+Write a function `mirrorHoriz` that mirrors the image across its vertical axis. This should work similar to `mirrorVert`, but instead of replacing the bottom rows with the reversed top rows (as you did in `mirrorVert`), you'll replace the last half of the pixels in every row with the reversed first half of the pixels. For example:
+
+<!--<img src="spamin.png" width="200">--> <img src="mirrorH.png" width="200">
+
+*(The bigger question: which side of the SPAM can do you open?)*
+
+### scale
+
+Write a function `scale that` scales the image to half of each of its original dimensions (this will be a quarter of its original area). The easiest way to do this is to eliminate every other pixel in each row (scaling the image horizontally) **and** eliminate every other row (scaling the image vertically). 
+
+## Extra Credit
+
+Make your own transformations! Make sure to comment.
+
 ## Submission
 
-Make sure your `image_fun.py` file contains 4 additional functions: `grayscale`, `binarize`, `flipVert`, and `flipHorz`. Be sure to test them all at the bottom of the file. Make sure you've added your name to the comments at the top of the file, that your program contains comments and follows good programming style.
+Make sure your `image_fun.py` file contains 7 additional functions: `grayscale`, `binarize`, `flipVert`, `flipHorz`, `mirrorVert`, `mirrorHoriz`, and `scale`. Be sure to test them all at the bottom of the file. Make sure you've added your name to the comments at the top of the file, that your program contains comments and follows good programming style.
 
 Once you’re satisfied that your programs are working correctly, zip it for submission:
 
   * `cd ..`
-  * `zip project2_uLogin.zip project2_uLogin/*`
+  * `zip project3_uLogin.zip project3_uLogin/*`
 *Assignment adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*
