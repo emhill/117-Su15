@@ -1,5 +1,5 @@
 ---
-title: "Altogether Now"
+title: "Images"
 published: true
 morea_coming_soon: false
 morea_id: final-project
@@ -13,7 +13,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/spam.png
-morea_sort_order: 11
+morea_sort_order: 8
 ---
 
-Project 2 & Final Exam
+Project 3
