@@ -16,7 +16,7 @@ In this practice HW you will create 3 programs that use strings, lists, and recu
 
 ## mode.py
 
-Create a program that calculates the most frequently occurring number in a list of 10 numbers. You may hard-code in a list of numbers rather than getting them as input from the user. You may use the python [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function.
+Create a program that calculates the most frequently occurring number in a list of 10 numbers. You may hard-code in a list of numbers rather than getting them as input from the user. You may use the python [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function from the statistics package.
 
 ***Recommended Development Steps:***
 
