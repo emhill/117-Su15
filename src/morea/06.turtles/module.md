@@ -15,4 +15,4 @@ morea_icon_url: /morea/materials/logo-turtle.png
 morea_sort_order: 6
 ---
 
-Project 1
+Project 2
