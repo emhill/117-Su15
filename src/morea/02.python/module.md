@@ -12,7 +12,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
-morea_sort_order: 4
+morea_sort_order: 2
 ---
 
 An introduction to the python programming language, its syntax, and running python programs.

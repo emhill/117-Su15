@@ -13,6 +13,6 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/yarn.png
-morea_sort_order: 4
+morea_sort_order: 3
 ---
 Strings, input & output

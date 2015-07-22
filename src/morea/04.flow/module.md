@@ -17,7 +17,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/tree.png
-morea_sort_order: 5
+morea_sort_order: 4
 ---
 
 Making decisions with if conditions and repeating statements with for loops.

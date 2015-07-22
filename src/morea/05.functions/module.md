@@ -17,7 +17,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/fx.jpg
-morea_sort_order: 6
+morea_sort_order: 5
 ---
 
 The real power of programming.
