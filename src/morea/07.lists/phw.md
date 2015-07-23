@@ -27,7 +27,8 @@ You should be able to print:
   * the even numbers from 0 to 100
   * the perfect squares from 0 to 100
   * the number of odd numbers in the range of 0 to 100
-  * the number of vowels in the string "Hello, there!"
+  * the number of consonants in the string "Hello, there!"
+  * the string "CS rocks!" with no vowels
 
 
 <!--## Demonstration
@@ -58,4 +59,6 @@ When you've attempted the PHW, you can see my solution below.
 	50
 	
 	>>> print(sum([1 for x in "Hello, there!" if x in "AEIOUaeiou"]))
-	4-->
+	4
+	
+	>>> print( “”.join( [ x for x in “CS rocks!” if x not in "AEIOUaeiou" ] ) )-->
