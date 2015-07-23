@@ -14,6 +14,7 @@ morea_experiences:
  - ca6
  - phw6
  - phw7
+ - project1
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/fx.jpg

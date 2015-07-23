@@ -14,6 +14,7 @@ morea_experiences:
  - ca-7
  - phw8
  - phw9
+ - project3
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/list.png

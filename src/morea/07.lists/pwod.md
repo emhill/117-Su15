@@ -26,9 +26,9 @@ Create a program that calculates the most frequently occurring number in a list 
 
 ## wheel.py
 
-Write a **recursive** function `sajak` which takes a word as a parameter and returns the number of vowels in that string.
-
 Write an **iterative** function `count_vowels` which takes a word as a parameter and returns the number of vowels in that string.
+
+Write a **recursive** function `sajak` which takes a word as a parameter and returns the number of vowels in that string.
 
 Test both functions by asking the user to enter a word, and printing the number of vowels found by each function.
 

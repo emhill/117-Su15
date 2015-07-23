@@ -9,7 +9,6 @@ morea_outcomes:
 morea_readings:
 morea_experiences:
  - project3
- - phw13
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/spam.png
