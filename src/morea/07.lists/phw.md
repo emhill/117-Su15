@@ -27,7 +27,7 @@ You should be able to print:
   * the even numbers from 0 to 100
   * the perfect squares from 0 to 100
   * the number of odd numbers in the range of 0 to 100
-  * the number of consonants in the string "Hello, there!"
+  * the number of consonants in the string "Hi there"
   * the string "CS rocks!" with no vowels
 
 
