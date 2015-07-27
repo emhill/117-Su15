@@ -15,7 +15,7 @@ morea_labels:
      * `png.py`: library to work with png files **DO NOT MODIFY**
      * `png_helper.py`: helper functions to manipulate png files **DO NOT MODIFY**
      
-**Rename the folder** so that it is `project2_uLogin` rather than just `project2`. If you are working with a partner, make sure both uLogins are listed.
+**Rename the folder** so that it is `project3_uLogin` rather than just `project3`. If you are working with a partner, make sure both uLogins are listed.
 
 Next, try running the code: `python image_fun.py`. **Make sure to run with python, NOT python3.** If successful, when you `ls` you should see a new file, `out2.png`. Open `out2.png` and `out.png` to make sure they look the same.
 
