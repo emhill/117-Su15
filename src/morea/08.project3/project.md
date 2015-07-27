@@ -37,7 +37,9 @@ Write a function called `grayscale` that modifies an image to make it grayscale.
 
 <!--As Wikipedia calculates it, luminance is 21% red, 72% green, and 7% blue. Intuitively, this makes sense because if you think of standard red, green, and blue, green is the lightest and thus has highest positive impact luminance, while blue is darker and has a lower value for luminance. -->
 
-Since luminance is an indication of how white/black a pixel is, having your helper function return a list of RGB values in greyscale is easy -- just return the same value in each of the three color channels!
+Since luminance is an indication of how white/black a pixel is, having your helper function return a list of RGB values in greyscale is easy -- just return the same value in each of the three color channels! How much gray? You can use the following equation for luminance:
+
+    Gray = 0.2126 * Red + 0.7152 * Green + 0.0722 * Blue
 
 ***Hints:***
 
