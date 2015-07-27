@@ -93,7 +93,10 @@
 
 <!--As Wikipedia calculates it, luminance is 21% red, 72% green, and 7% blue. Intuitively, this makes sense because if you think of standard red, green, and blue, green is the lightest and thus has highest positive impact luminance, while blue is darker and has a lower value for luminance. -->
 
-<p>Since luminance is an indication of how white/black a pixel is, having your helper function return a list of RGB values in greyscale is easy – just return the same value in each of the three color channels!</p>
+<p>Since luminance is an indication of how white/black a pixel is, having your helper function return a list of RGB values in greyscale is easy – just return the same value in each of the three color channels! How much gray? You can use the following equation for luminance:</p>
+
+<pre><code>Gray = 0.2126 * Red + 0.7152 * Green + 0.0722 * Blue
+</code></pre>
 
 <p><strong><em>Hints:</em></strong></p>
 
@@ -185,7 +188,7 @@
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-07-27 11:32:44 -0400</span></p>
+       Last update on: <span>2015-07-27 11:37:05 -0400</span></p>
     <p style="margin: 0">
       11 modules
       
