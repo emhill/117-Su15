@@ -25,7 +25,7 @@ Read over the `invert` function in `image_fun.py` to see how it works. At the bo
 
 <img src="hmcOlinSmall.png" width="200"> <img src="outOlin.png" width="200">
 
-The `invert` function modifies an image to create its negative. That is, all color values are 255 minus their original value. Especially note the use of list comprehension in `invert`, which iterates over every pixel in the image and calls `change(rgb values)`. It's easiest to also write greyscale and binarize in the same format: a main function that accepts user input and contains a list comprehension that calls a helper function on each pixel. 
+The `invert` function modifies an image to create its negative. That is, all color values are 255 minus their original value. Especially note the use of list comprehension in `invert`, which iterates over every pixel in the image and calls `change(rgb values)`. It's easiest to also write greyscale and binarize in the same format: a main function that accepts user input and contains a list comprehension that calls a helper function, `change`, on each pixel. 
 
 ## Playing with Pixels
 
