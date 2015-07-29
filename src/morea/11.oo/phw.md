@@ -1,14 +1,14 @@
 ---
-title: "PHW14"
+title: "PHW12"
 published: true
 morea_id: phw14
 morea_type: experience
 morea_sort_order: 19
 morea_summary: "Objects in Python"
 morea_labels:
- - by 6/24
+
 ---
-# Practice HW14: Objects in Python
+# Practice HW12: Objects in Python
 
 In this practice HW you will implement the `Date` class we began during lecture.
 
