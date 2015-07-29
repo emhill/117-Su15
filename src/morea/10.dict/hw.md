@@ -1,5 +1,5 @@
 ---
-title: "HW9"
+title: "PHW12"
 published: true
 morea_id: hw9
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "frequency.py"
 morea_labels:
 
 ---
-# HW9: Word Frequencies
+# PHW12: Word Frequencies
 
 Write a program `frequency.py` that reads in [the file `turing.txt`](data/turing.txt) and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, "the" occurs 10 times and would be printed out before "Alan", which occurs just once.
 
