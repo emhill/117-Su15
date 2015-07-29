@@ -9,7 +9,7 @@ morea_outcomes:
 morea_readings:
 morea_experiences:
  - hw9
- - phw14
+ - phw13
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
