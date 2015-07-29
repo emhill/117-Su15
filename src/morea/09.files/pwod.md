@@ -53,19 +53,35 @@ Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt
 
 ## lines.py
 
-Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and `text3.txt`, counts the number of lines in each file, and prints out the number of lines to a file `counts.txt`. Each line of `counts.txt` should look like `[filename]: [the number of lines in the file]`.
+Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and `text3.txt`, counts the number of lines in each file, and prints out the number of lines to a file `counts.txt`. Each line of `counts.txt` should look like `[filename] : [the number of lines in the file]`.
 
 ***Hints:***
 
   * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.
   * You should add the file names `text1.txt`, `text2.txt`, and `text3.txt` to a list, so you don't have to copy & paste your code.
 
-<!--## Demonstration
+## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it for `while.py` and `count.py`:
 
 {% include youtube.html id="2GkDAxZOnt8" %}
 
-{% include wod-warning.html %}-->
+My solution for `lines.py`:
+
+	file_list = ["text1.txt", "text2.txt", "text3.txt"]
+	
+	count = open("counts.txt", "w")
+	
+	for file in file_list:
+		 f = open(file)
+		 num = sum(1 for line in f)
+		 # [filename]: [the number of lines in the file]
+		 print(file , ":" , num, file=count)
+		 #count.write(file + ": " + str(num) + "\n")
+		 f.close()
+	
+	count.close()
+
+{% include wod-warning.html %}
 
