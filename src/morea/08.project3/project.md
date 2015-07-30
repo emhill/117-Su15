@@ -94,11 +94,13 @@ Write a function `mirrorHoriz` that mirrors the image across its vertical axis. 
 
 *(The bigger question: which side of the SPAM can do you open?)*
 
+## Extra Credit
+
 ### scale
 
 Write a function `scale that` scales the image to half of each of its original dimensions (this will be a quarter of its original area). The easiest way to do this is to eliminate every other pixel in each row (scaling the image horizontally) **and** eliminate every other row (scaling the image vertically). 
 
-## Extra Credit
+### Free style
 
 Make your own transformations! Make sure to comment.
 
