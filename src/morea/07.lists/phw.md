@@ -62,3 +62,4 @@ When you've attempted the PHW, you can see my solution below.
 	4
 	
 	>>> print( “”.join( [ x for x in “CS rocks!” if x not in "AEIOUaeiou" ] ) )
+	"CS rcks!"
