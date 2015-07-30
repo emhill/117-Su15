@@ -27,7 +27,15 @@ def invert(file_in, file_out):
     New_pix = [ [ change(p) for p in row ] for row in Im_pix ]
     # now, save to the file 'out.png'
     saveRGB( New_pix, file_out )
-    
+
+# You can also unroll the list comprehension to create New_pix
+# instead of [ [ change(p) for p in row ] for row in Im_pix ]
+#     New_pix = []
+#     for row in Im_pix:
+#     	new_row = []
+#     	for p in row:
+#     		new_row.append(change(p))
+#     	New_pix.append(new_row)
 
 invert('spam.png', 'out2.png') # test & compare with out.png
 #invert('trees.png', 'trees_inverted.png')
