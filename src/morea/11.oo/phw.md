@@ -305,11 +305,11 @@ You can check your own date arithmetic with this website: [http://www.timeanddat
 
 *Assignment adapted from [Harvey Mudd's CS 5 Virtual Art Lab](https://www.cs.hmc.edu/twiki/bin/view/CS5/Lab10).*
 
-## Demonstration
+<!--## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="FMj6DvHxJw8" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
 
