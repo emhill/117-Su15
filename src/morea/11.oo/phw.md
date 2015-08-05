@@ -241,6 +241,10 @@ Now, the next part of the lab asks you to implement a few methods for the Date c
 
 Add the following methods to your `Date` class. Be sure to add a docstring to each of the methods you write. (Recall that the term method refers to a function that is a member of a user-defined class.)
 
+### isAfter(self, d2)
+
+This method should return whether (True/False) `Date d2` is after `Date self`. *Hint*: see the `isBefore` example from class.
+
 ### tomorrow(self)
 
 This method should **NOT RETURN ANYTHING**. Rather, it should change the calling object so that it represents one calendar day after the date it originally represented. This means that `self.day` will definitely change. What's more, `self.month` and `self.year` might change.
@@ -301,11 +305,11 @@ You can check your own date arithmetic with this website: [http://www.timeanddat
 
 *Assignment adapted from [Harvey Mudd's CS 5 Virtual Art Lab](https://www.cs.hmc.edu/twiki/bin/view/CS5/Lab10).*
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="FMj6DvHxJw8" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
 
