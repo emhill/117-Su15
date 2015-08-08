@@ -106,7 +106,7 @@ Make your own transformations! Make sure to comment.
 
 ## Submission
 
-Make sure your `image_fun.py` file contains 7 additional functions: `grayscale`, `binarize`, `flipVert`, `flipHorz`, `mirrorVert`, `mirrorHoriz`, and `scale`. Be sure to test them all at the bottom of the file. **Please make your output filenames consistent.** For example, if your input image file is `x.png`, name your output `x_out.png`.
+Make sure your `image_fun.py` file contains 7 additional functions: `grayscale`, `binarize`, `flipVert`, `flipHorz`, `mirrorVert`, `mirrorHoriz`, and `scale`. Be sure to test them all at the bottom of the file. **Please make your output filenames are consistent.** For example, if your input image file is `x.png`, name your output `x_out.png`. **Please remove your output files before submitting.**
 
 Make sure you've added your name to the comments at the top of the file, that your program contains comments and follows good programming style.
 
