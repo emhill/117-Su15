@@ -39,7 +39,7 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include wod-warning.html %}-->
 
-## Solution
+<!--## Solution
 
 When you've attempted the PHW, you can see my solution below.
 
@@ -62,4 +62,4 @@ When you've attempted the PHW, you can see my solution below.
 	4
 	
 	>>> print( “”.join( [ x for x in “CS rocks!” if x not in "AEIOUaeiou" ] ) )
-	"CS rcks!"
+	"CS rcks!"-->

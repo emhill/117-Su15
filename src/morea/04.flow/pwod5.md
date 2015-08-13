@@ -28,11 +28,11 @@ Create a program that calculates the average of a series of 10 real (i.e., decim
 
 
 
-## Demonstration
+<!--## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="lexkpbllvT0" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->

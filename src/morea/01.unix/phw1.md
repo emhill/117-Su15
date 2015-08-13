@@ -85,7 +85,7 @@ Once you've finished doing the HW a single time, watch me do it:
 
 {% include wod-warning.html %}-->
 
-## Solutions
+<!--## Solutions
 
 ### My Final UNIX Screenshot
 
@@ -93,4 +93,4 @@ Once you've finished doing the HW a single time, watch me do it:
 
 ### Solutions to Hardware Questions
 
-<a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="400"/></a>
+<a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="400"/></a>-->
