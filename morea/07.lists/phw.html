@@ -111,31 +111,30 @@ have not achieved at least Av (Average) performance. If so, be sure to:
 
 Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
-<h2 id="solution">Solution</h2>
+<!--## Solution
 
-<p>When you’ve attempted the PHW, you can see my solution below.</p>
+When you've attempted the PHW, you can see my solution below.
 
-<pre><code>&gt;&gt;&gt; print([12 for x in range(12)])
-[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
-
-&gt;&gt;&gt; print([abs(x) for x in range(-10,11)])
-[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-&gt;&gt;&gt; print([x for x in range(101) if x % 2 == 0])
-[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
-
-&gt;&gt;&gt; print([x**2 for x in range(1, 101) if x**2 &lt; 100])
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
-
-&gt;&gt;&gt; print(sum([1 for x in range(101) if x % 2 == 1]))
-50
-
-&gt;&gt;&gt; print(sum([1 for x in "Hello, there!" if x in "AEIOUaeiou"]))
-4
-
-&gt;&gt;&gt; print( “”.join( [ x for x in “CS rocks!” if x not in "AEIOUaeiou" ] ) )
-"CS rcks!"
-</code></pre>
+    >>> print([12 for x in range(12)])
+    [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+    
+	>>> print([abs(x) for x in range(-10,11)])
+	[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	
+	>>> print([x for x in range(101) if x % 2 == 0])
+	[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
+	
+	>>> print([x**2 for x in range(1, 101) if x**2 < 100])
+	[1, 4, 9, 16, 25, 36, 49, 64, 81]
+	
+	>>> print(sum([1 for x in range(101) if x % 2 == 1]))
+	50
+	
+	>>> print(sum([1 for x in "Hello, there!" if x in "AEIOUaeiou"]))
+	4
+	
+	>>> print( “”.join( [ x for x in “CS rocks!” if x not in "AEIOUaeiou" ] ) )
+	"CS rcks!"-->
 
 </div>
 
@@ -150,7 +149,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-08-07 21:48:05 -0400</span></p>
+       Last update on: <span>2015-08-13 10:27:44 -0400</span></p>
     <p style="margin: 0">
       12 modules
       
