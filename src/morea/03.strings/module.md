@@ -7,9 +7,9 @@ morea_outcomes:
 morea_readings:
  - reading-TP2
 morea_experiences:
- - ca-3-4
+ - hw3
  - phw3
- - p1
+ - project1
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/yarn.png

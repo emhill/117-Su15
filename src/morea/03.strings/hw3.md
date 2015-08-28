@@ -1,7 +1,7 @@
 ---
 title: "HW3: Code Academy"
 published: true
-morea_id: ca-3-4
+morea_id: hw3
 morea_type: experience
 morea_sort_order: 1
 morea_summary: "Strings & Console Output and Data & Time"

@@ -8,7 +8,7 @@ morea_outcomes:
  - outcome-7skills
 morea_readings:
 morea_experiences:
- - project1
+ - project2
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/logo-turtle.png

@@ -11,10 +11,10 @@ morea_readings:
  - reading-cs5-2
  - reading-TP4
 morea_experiences:
- - ca6
+ - hw5
  - phw6
  - phw7
- - project1
+ - project2
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/fx.jpg

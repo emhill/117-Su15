@@ -1,7 +1,7 @@
 ---
 title: "Project 1"
 published: true
-morea_id: p1
+morea_id: project1
 morea_type: experience
 morea_sort_order: 5
 morea_summary: "Using Strings & Functions"

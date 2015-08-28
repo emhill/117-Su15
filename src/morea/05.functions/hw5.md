@@ -1,7 +1,7 @@
 ---
-title: "HW6: Code Academy"
+title: "HW5: Code Academy"
 published: true
-morea_id: ca6
+morea_id: hw5
 morea_type: experience
 morea_sort_order: 1
 morea_summary: "Functions & Taking a Vacation"

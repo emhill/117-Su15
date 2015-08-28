@@ -7,7 +7,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP2
 morea_experiences:
- - ca-1-2
+ - hw2
  - phw2
 morea_assessments:
 morea_type: module
