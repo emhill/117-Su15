@@ -1,6 +1,6 @@
-name: CSCI 117
+name: CSCI 150
 highlighter: pygments
 safe: false
-baseurl: /117-Su15
+baseurl: /150
 exclude: [morea]
 morea_theme: spacelab

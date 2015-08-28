@@ -15,9 +15,11 @@ By the end of the course, you should be able to implement solutions to solve bas
 To explore and implement the topics we will be discussing in class, you will need a laptop. During the course we will install a UNIX command line tool for our development environment. Options include VirtualBox for Windows, Terminal for Mac, and Linux.
 
 ### Syllabus
-[Overview of course policies](https://www.dropbox.com/s/04a3w96l6wi5iad/Syllabus.pdf?dl=0)
+[Overview of course policies]({{site.baseurl}}/morea/materials/Syllabus.pdf)
 **Office Hours:**
-  * Tuesday 10:30-12:30
-
+  * Monday 10:30-11:30 am
+  * Wednesday 2:00-3:00 pm
+  * Thursday 9:15-10:15 am
+  
 ### Course Schedule
-Tentative [course calendar](https://www.dropbox.com/s/5kdnytb30ipwqix/calendar.xlsx?dl=0), updated weekly.
+Tentative [course calendar](https://drive.google.com/open?id=0B46T_IyJH_ovSVJ4LWViNlVaX0k), updated weekly.
