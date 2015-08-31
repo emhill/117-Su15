@@ -13,6 +13,8 @@ morea_labels:
 I have already setup a UNIX installation for you, but to use it, you need to set it up in Virtual Box.
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/) on your computer
+    * **Windows 10 users:** if VirtualBox doesn't run, try downloading & installing [VMware player](https://www.vmware.com/products/player/playerpro-evaluation.html) instead. See me during office hours for help.
+    * **Windows 7 users:** if you get a `VT-X error`, you can either turn on virtualization through BIOS (see me outside of class) ***OR*** install a [32-bit version of ubuntu](http://releases.ubuntu.com/14.04.3/ubuntu-14.04.3-desktop-i386.iso). See me during office hours for help.
 1. Download the [VM image](http://cs.drew.edu/~emhill/117/CSCI-117.ova) (~2GB). If you encounter problems unzipping the VM (default unzip software may not be sufficient on older operating systems), 7zip is a free unzip program.
 1. Install, run, shutdown, & customize your VM.
 
