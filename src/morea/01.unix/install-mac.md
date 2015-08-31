@@ -15,4 +15,4 @@ Download & install a UNIX-based command line interface and a text editor for pyt
     - if it's not there, you will need to install the Xcode dev tools: [http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 1. Get the latest version of python 3 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 1. TextWrangler editor: [http://www.barebones.com/products/textwrangler/download.html](http://www.barebones.com/products/textwrangler/download.html)
-2. Next step is to [customize the terminal]({{ site.baseurl }}/morea/01.unix/unix-custom.html)
+2. Final step is to [customize your terminal]({{ site.baseurl }}/morea/01.unix/unix-custom.html)
