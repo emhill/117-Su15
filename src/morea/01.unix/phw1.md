@@ -61,7 +61,7 @@ In a graded HW or project, I would give you directions like this:
 4. Run your python program: `python3 hello_world.py`
 5. Once you're satisfied that your program is working correctly, zip it for submission:
     - `cd ..`
-    - `zip hw2_uLogin.zip hw2_uLogin/*`
+    - `zip phw1_uLogin.zip phw1_uLogin/*`
 
 <!--## Demonstration
 
