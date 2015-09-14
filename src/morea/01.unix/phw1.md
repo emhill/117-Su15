@@ -63,7 +63,7 @@ In a graded HW or project, I would give you directions like this:
     - `cd ..`
     - `zip phw1_uLogin.zip phw1_uLogin/*`
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
@@ -75,7 +75,7 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 <a href="terminalA.png"><img src="terminalA.png" width="400"/></a><BR>
 <a href="terminalB.png"><img src="terminalB.png" width="400"/></a><BR>
-<a href="terminalC.png"><img src="terminalC.png" width="400"/></a>-->
+<a href="terminalC.png"><img src="terminalC.png" width="400"/></a>
 
 <!--## Demonstration
 

@@ -126,7 +126,7 @@ Your document should be organized by command -- for example, you should describe
 
 <!-- Allow 45 minutes for all? -->
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
@@ -136,4 +136,4 @@ Once you've finished doing the HW a single time, you can watch me do it:
 
 ### Solutions to Questions
 
-<a href="types.png"><img src="types.png" width="200"/></a>-->
+<a href="types.png"><img src="types.png" width="200"/></a>
