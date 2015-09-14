@@ -6,7 +6,7 @@ morea_type: experience
 morea_sort_order: 5
 morea_summary: "Input, Strings, and Using Functions"
 morea_labels:
- - due 6/1
+
 ---
 # Practice HW3: Input, Strings, and Using Functions
 
@@ -14,8 +14,8 @@ morea_labels:
 
 ## Setup
 
-  * `mkdir phw4_uLogin`
-  * `cd phw4_uLogin`
+  * `mkdir phw3_uLogin`
+  * `cd phw3_uLogin`
   * `touch maths.py mangle.py`
 
 *Don't forget to add a comment at the top of each program with your name and what the program does.*
@@ -48,7 +48,7 @@ For example:
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
   - `cd ..`
-  - `zip phw4_uLogin.zip phw4_uLogin/*`
+  - `zip phw3_uLogin.zip phw3_uLogin/*`
 
 
 
