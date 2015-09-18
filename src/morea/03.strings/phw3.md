@@ -53,10 +53,10 @@ Once you're satisfied that your programs are working correctly, zip it for submi
 
 
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="8uFbvxWgi9E" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
