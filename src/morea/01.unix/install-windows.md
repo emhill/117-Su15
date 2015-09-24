@@ -1,5 +1,5 @@
 ---
-title: "Windows Setup via VirtualBox"
+title: "Setup via VirtualBox"
 published: true
 morea_id: install-windows
 morea_type: experience
@@ -8,34 +8,33 @@ morea_summary: "Install UNIX & Python: Windows or Mac"
 morea_labels:
 
 ---
-# Windows UNIX Python Development Setup
+# UNIX Python Development Setup for Windows
 
-I have already setup a UNIX installation for you, but to use it, you need to set it up in Virtual Box.
+I have already setup a UNIX installation for you, but to use it, you need to set it up in Virtual Machine software such as Virtual Box or VMware player.
 
-1. Download and install [VirtualBox](https://www.virtualbox.org/) on your computer
-    * If VirtualBox doesn't work, try downloading & installing [VMware player](https://www.vmware.com/products/player/playerpro-evaluation.html) instead. See me during office hours for help.
-    * If you get a `VT-X error`, you can either turn on virtualization through BIOS ***OR*** install a [32-bit version of ubuntu](http://releases.ubuntu.com/14.04.3/ubuntu-14.04.3-desktop-i386.iso) in your VirtualBox. See me during office hours for help.
-1. Download the [VM image](http://cs.drew.edu/~emhill/117/CSCI-117.ova) (~2GB). If you encounter problems unzipping the VM (default unzip software may not be sufficient on older operating systems), 7zip is a free unzip program.
-1. Install, run, shutdown, & customize your VM.
+1. Download and install [VMware player](https://www.vmware.com/products/player/playerpro-evaluation.html) (recommended for Windows) or [VirtualBox](https://www.virtualbox.org/) (recommended for Mac) on your computer.
+1. Download the [VM image](http://cs.drew.edu/~emhill/vm-images/CSCI-150.ova) (~2GB). If you encounter problems unzipping the VM (default unzip software may not be sufficient on older operating systems), 7zip is a free unzip program.
+1. Install, run, shutdown, & customize your VM (detailed steps below).
 
-## Install VirtualBox & CSCI 117 VM
-
-Watch this screencast to install & setup your VirtualBox VM:
- 
-{% include youtube.html id="u7sHainPT8w" %}
+## Install VirtualBox & CSCI 150 VM
 
 Steps:
 
   1. Install Virtual Box & open it
-  - Once your virtual machine (VM) image file `CSCI-117.ova` has completed downloading (it should be about 2 GB), go to `File > Import Appliance` in VirtualBox.
-  - Browse to the `CSCI-117.ova` file on your computer, select `open` and then `Import`.
-  - Once imported, you should see the CSCI-117 virtual machine powered off:<BR>
+  - Once your virtual machine (VM) image file `CSCI-150.ova` has completed downloading (it should be about 2 GB), go to `File > Import Appliance` in VirtualBox. On VMWare Player, go to `Open a Virtual Machine`.
+  - Browse to the `CSCI-150.ova` file on your computer, select `open` and then `Import`.
+  - Once imported, you should see the CSCI-150 virtual machine powered off:<BR>
   <a href="VBMgr-full.png"><img src="VBMgr-sm.png" width="300"/></a>
-  - Hit the green arrow labeled `Start` the UNIX machine.
-  - Once the UNIX VM has loaded, go to `Devices > Insert Guest Additions CD image`. On VMware Player, this would be `Player > Manage > Install VMware Tools`.
+  - Hit the green arrow (labeled `Start` on VirtualBox, `Play virtual machine` on VMware Player) to boot the UNIX machine. *Note*: If you get a `VT-X error`, you can either turn on virtualization through BIOS ***OR*** import the [32-bit version of the VM image](http://cs.drew.edu/~emhill/vm-images/CSCI-150-32bit.ova) in your Virtual Machine. See me during office hours for help.
+  - **VirtualBox only:** Once the UNIX VM has loaded, go to `Devices > Insert Guest Additions CD image`. (On VMware Player, this would be `Player > Manage > Install VMware Tools`, but it should already be installed.)
   - You may need to enter the user name and/or password for this machine:
      - **user**: csci
-     - **password**: 117
+     - **password**: drew
+
+You can also watch this screencast to install & setup your VirtualBox VM:
+ 
+{% include youtube.html id="u7sHainPT8w" %}
+
 
 ## Shutdown the VM
 
@@ -85,7 +84,7 @@ This will allow you to copy/paste between your host computer and the virtual mac
 
 A typical work session using the VirtualBox VM proceeds as follows:
 
-- Start VirtualBox, select the CSCI-117 VM, and click the Start button.
+- Start VirtualBox, select the CSCI-150 VM, and click the Start button.
 - Do your work.
 - When you're ready to quit, select `Close` from the VirtualBox Machine menu and shutdown using your preferred method (saved state or shutdown)
 
