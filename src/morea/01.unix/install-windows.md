@@ -13,7 +13,7 @@ morea_labels:
 I have already setup a UNIX installation for you, but to use it, you need to set it up in Virtual Machine software such as Virtual Box or VMware player.
 
 1. Download and install [VMware player](https://www.vmware.com/products/player/playerpro-evaluation.html) (recommended for Windows) or [VirtualBox](https://www.virtualbox.org/) (recommended for Mac) on your computer.
-1. Download the [VM image file `CSCI-150.ova`](http://cs.drew.edu/~emhill/vm-images/CSCI-150.ova) (~2GB). If you encounter problems unzipping the VM (default unzip software may not be sufficient on older operating systems), 7zip is a free unzip program.
+1. Download the [VM image file `CSCI-150.ova`](http://cs.drew.edu/~emhill/vm-images/CSCI-150.ova) (~2GB). 
 1. Install, run, shutdown, & customize your VM (detailed steps below).
 
 ## Install VirtualBox & CSCI 150 VM
