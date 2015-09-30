@@ -4,69 +4,62 @@ published: true
 morea_id: phw7
 morea_type: experience
 morea_sort_order: 7
-morea_summary: "Go with the (control) flow"
+morea_summary: "Recursion"
 morea_labels:
 
 ---
-# Practice HW7: Go with the (control) flow
+# Practice HW6: Functions
 
-Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. ***You don’t need to run the program to complete the assignment.***
+In this practice HW you will create XXX programs that take code we've previously written for other PHWs and turn them into functions.
 
 <!--{% include wod-times.html Rx="<20 min" Av="20-40 min" Sd="40-60 min" DNF="60+ min" %}-->
 
-## Exercise: loopy.py
+## hello_function.py
 
-Take a look at [loopy.py](loopy.pdf) and the output from a sample run. Each line of code in loopy.py is given a line number to the left. Given this sample run, in what order are the statements executed? List the line numbers in the order that they are executed. *Hint*: not all line numbers need to be included, and some line numbers may appear multiple times.
+Write a function `hello` which takes a name as a parameter and prints "Hello, ...", replacing the ellipsis (...) with the parameter. Test your function by asking the user for their name.
 
-Make sure you can answer the following questions:
+## tip_calculator.py
 
-1. What is the first line executed?
-1. What is the last line executed?
-1. Is each function fruitful or void?
+Recall `tip.py` from [PHW3]({{site.baseurl}}/morea/04.python/pwod3.html). Copy `tip.py` into `tip_calculator.py`. Modify it by creating a function `calculate_total` that takes 3 parameters and returns the total for the meal. The 3 parameters are:
+
+  * `meal`: the cost of the meal
+  * `tax_rate`: the percent tax. For example, NJ tax would be 0.07.
+  * `tip_rate`: the percent tip. A 20% tip rate would be 0.20.
+
+Use the same calculations as in the prior lab (NOT the CodeAcademy exercise). Specifically, proper tipping technique dictates that the tip should be calculated based on the total cost of the meal, before tax is applied. Then, print out the total with 2 decimal places. Don’t forget the dollar sign ($)!
+
+Prompt the user to enter the cost of the meal, the tax rate, and the tip rate. Your final program should make two calls to `calculate_total`: one based on input from the user and one using the following call:
+
+    calculate_total(53.48, .07, .18)
+
+*Note that the total for the above meal with tax & tip is $66.85.*
+
+## absolute_value.py
+
+Write a function `absolute_value` that takes a number as a parameter and returns its absolute value without using any python functions (in other words, you should use an if statement not `abs`). Test that your function works by calling it twice, once with a positive and once with a negative number, and printing the results. *Your program should **not** get any input from the user.*
+
+## is_multiple.py
+
+Write a function `is_multiple` that takes a number and a multiple as parameters and returns true if the number is a multiple (i.e., if `number % multiple` is 0). Test that your function works by calling it twice, once with a multiple and once with a number that is not its multiple, and print the results. *Your program should **not** get any input from the user.*
+
+For example:
+
+| **call** | **returns** |
+|:---:|:---:|
+| `is_multiple(10, 5)` | True | 
+| `is_multiple(10, 7)` | False | 
+| `is_multiple(8, 4)` | True | 
+| `is_multiple(8, 3)` | False | 
+
+
+## rectangle.py
+
+Create a program that draws a filled rectangle of asterix characters, requesting the width and height from the user. Write a function `rectangle` that takes the number of rows and columns (i.e, height & width) as parameters. If the width or height entered by the user is less than 1, the function prints an informative error message. Otherwise, the function prints the filled rectangle. Make sure to test your program with positive and negative values for width & height. *Hint:* you may find the [`loop_fun.py` example from class](https://drive.google.com/a/drew.edu/file/d/0B46T_IyJH_ovLWpObFZkLXdsM0U/view?usp=sharing) (part C, using 2 loops) to be helpful.
 
 <!--## Demonstration
 
-*Coming soon...*
+Once you've finished doing the HW a single time, you can watch me do it:
 
-Once you've finished doing the WOD a single time, you can watch me do it:
-
-{% include youtube.html id="0BPlMXkwdcY" %}-->
-
-<!--## Solution
-
-Order that the lines are executed:
-
-	34, 35, 36 get_area(+,+)
-		5, 6, 7
-	
-	36, 38 rectangle_outline
-		21, 22, 24, 25 draw_line(25)
-			16, 25 * (17, 18), 19
-	23 * (	22, 24, 28, 29, 23 * (30, 31), 32	)
-		22, 24, 25 draw_line(25)
-			16, 25 * (17, 18), 19 
-
-	40 get_area(-,+)
-		5, 6, 8, 9, 10, 11, 14
-
-	41 get_area(+,-)
-		5, 6, 8, 9, 10, 12, 13, 14
-
-	43, 44 draw_line
-		16, 17, 19
-	43, 44, 16, 1 * (17, 18), 19
-	43, 44, 16, 2 * (17, 18), 19
-	43, 44, 16, 3 * (17, 18), 19
-	43, 44, 16, 4 * (17, 18), 19
-	43
-
-Questions:
-
-1. 34
-1. 43 or 19
-2. Fruitful or void?
-    * get_area:		fruitful
-	* draw_line:		void
-	* rectangle_outline:	void
+{% include youtube.html id="0BPlMXkwdcY" %}
 
 {% include wod-warning.html %}-->

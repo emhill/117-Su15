@@ -26,7 +26,7 @@ Recall `tip.py` from [PHW3]({{site.baseurl}}/morea/04.python/pwod3.html). Copy `
   * `tax_rate`: the percent tax. For example, NJ tax would be 0.07.
   * `tip_rate`: the percent tip. A 20% tip rate would be 0.20.
 
-Use the same calculations as in the prior lab (NOT the CodeAcademy exercise). Specifically, proper tipping technique dictates that the tip should be calculated based on the total cost of the meal, before tax is applied. Then, print out the total with 2 decimal places. Don’t forget the dollar sign ($)!
+Use the same calculations as in the prior practice HW (NOT the CodeAcademy exercise). Specifically, proper tipping technique dictates that the tip should be calculated based on the total cost of the meal, before tax is applied. Then, print out the total with 2 decimal places. Don’t forget the dollar sign ($)!
 
 Prompt the user to enter the cost of the meal, the tax rate, and the tip rate. Your final program should make two calls to `calculate_total`: one based on input from the user and one using the following call:
 

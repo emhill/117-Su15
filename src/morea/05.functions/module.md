@@ -14,6 +14,7 @@ morea_experiences:
  - hw5
  - phw6
  - phw7
+ - exam-practice
  - project2
 morea_assessments:
 morea_type: module
