@@ -56,10 +56,10 @@ For example:
 
 Create a program that draws a filled rectangle of asterix characters, requesting the width and height from the user. Write a function `rectangle` that takes the number of rows and columns (i.e, height & width) as parameters. If the width or height entered by the user is less than 1, the function prints an informative error message. Otherwise, the function prints the filled rectangle. Make sure to test your program with positive and negative values for width & height. *Hint:* you may find the [`loop_fun.py` example from class](https://drive.google.com/a/drew.edu/file/d/0B46T_IyJH_ovLWpObFZkLXdsM0U/view?usp=sharing) (part C, using 2 loops) to be helpful.
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="0BPlMXkwdcY" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
