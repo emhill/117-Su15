@@ -44,10 +44,17 @@ Write a function `text_steps` that takes a string as a parameter and recursively
 
 Test your function works by getting a string as input from the user.
 
-<!--## Demonstration
+For extra practice, try writing `text_steps` using a loop instead of recursion.
+
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="nTb-SeIGMCM" %}
 
-{% include wod-warning.html %}-->
+### Solution for `text_steps` loop:
+    def step_loop(txt):
+	    for i in range(len(txt)):
+		    print(txt[i:])
+
+{% include wod-warning.html %}
