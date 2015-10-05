@@ -8,7 +8,7 @@ morea_summary: "Go with the (control) flow"
 morea_labels:
 
 ---
-# Practice HW7: Go with the (control) flow
+# Midterm Practice: Go with the (control) flow
 
 Rather than writing a program, in this practice HW you will walk through the execution of a program on paper. ***You don’t need to run the program to complete the assignment.***
 
