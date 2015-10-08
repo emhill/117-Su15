@@ -32,7 +32,7 @@ Once you've finished doing the WOD a single time, you can watch me do it:
 
 {% include youtube.html id="0BPlMXkwdcY" %}-->
 
-<!--## Solution
+## Solution
 
 Order that the lines are executed:
 
@@ -69,4 +69,4 @@ Questions:
 	* draw_line:		void
 	* rectangle_outline:	void
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
