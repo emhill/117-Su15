@@ -77,7 +77,7 @@ Test your functions by getting a string of text from the user and printing the r
 2. Now print the other way
 3. Get input from the user
 
-<!--## Demonstration
+## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it. ***Note***, this video includes exercises in a different order:
@@ -90,4 +90,3 @@ Recursive solution to pyramid function in `text.py`:
 
 {% include wod-warning.html %}
 
--->
