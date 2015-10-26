@@ -80,7 +80,7 @@ Instead of reordering the rows, you want to consider how the pixels in the rows 
 
 ### mirrorVert
 
-Write a function `mirrorVert` that mirrors the image across its horizontal axis (i.e., so that the top part is mirrored upside down on the bottom of the image). The easiest approach is to replace the bottom half of `Im_pix` with the reversed rows from the top half. To do this, you'll use the built-in function `getWH()` in `png_helper.py` to get the height of `Im_pix`. For example:
+Write a function `mirrorVert` that mirrors the image across its horizontal axis (i.e., so that the top part is mirrored upside down on the bottom of the image). The easiest approach is to replace the bottom half of `Im_pix` with the reversed rows from the top half of `flipVert`. To do this, you'll use the built-in function `getWH()` in `png_helper.py` to get the height of `Im_pix`. Keep in mind that `getWH()` returns a *list* of width & height. You can assign both values to variables with something like `width, height = getWH()`. 
 
 <img src="in.png"> <img src="mirrorV.png">
 
