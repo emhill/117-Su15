@@ -67,11 +67,11 @@ Create a program `dictionary.py` that creates a simple dictionary with two keys,
 4. Replace your set variables by adding them to a dictionary `d` instead. For example, if you had a set named `even`, replace every occurrence of that variable with `d['even']`. Make sure you initialize `d` to be an empty dictionary (`d = {}`). Print out the dictionary after your loop to confirm the behavior is the same as in the prior step.
 
 
-<!--## Demonstration
+## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="hogc3cXLbRU" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
 
