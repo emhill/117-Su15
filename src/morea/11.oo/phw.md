@@ -1,5 +1,5 @@
 ---
-title: "PHW12"
+title: "HW11"
 published: true
 morea_id: phw14
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "Objects in Python"
 morea_labels:
 
 ---
-# Practice HW12: Objects in Python
+# HW11: Objects in Python
 
 In this practice HW you will implement the `Date` class we began during lecture.
 
@@ -181,7 +181,7 @@ Try out these examples, which use next year's New Year's Day. First we don't use
 
 Next, you'll show that `copy` does make a deep copy (instead of a copy of only the reference, or "shallow" copy):
 	
-	>>> import date; reload(date); from date import *  # reload your file...
+	>>> import date; from imp import reload; reload(date); from date import *  # reload your file...
 	>>> d = Date(1, 1, 2016)
 	>>> d2 = d.copy()
 	>>> d
@@ -251,7 +251,7 @@ This method should **NOT RETURN ANYTHING**. Rather, it should change the calling
 
 Make sure to test your method with some tricky examples. Here are a couple of randomly chosen ones to get you started:
 
-	>>> import date; reload(date); from date import *  # re-read file...
+	>>> import date; from imp import reload; reload(date); from date import *  # re-read file...
 	
 	>>> d = Date(12, 31, 2015)
 	>>> d
@@ -280,7 +280,7 @@ In addition, this method should *print* all of the dates from the starting date 
 
 Make sure to test your method. Here are some to start with:
 
-	>>> import date; reload(date); from date import *  # re-read file...
+	>>> import date; from imp import reload; reload(date); from date import *  # re-read file...
 	
 	>>> d = Date(4, 7, 2015)
 	>>> d.addNDays(3)
