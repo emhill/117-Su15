@@ -11,6 +11,7 @@ morea_readings:
 morea_experiences:
  - ca-12
  - phw14
+ - project5
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/oo.png
