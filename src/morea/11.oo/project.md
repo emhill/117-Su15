@@ -18,20 +18,26 @@ morea_labels:
 
 Open up `connectfour.py` and look at the `ConnectFour` class. Familiarize yourself with its attributes (fields) and how the methods are implemented. Pay special attention to how you might implement making a move and determining who the winner is.
 
-Run the game & submit a screenshot for check point 1. You may have to hit Control-C to kill the game if closing the window does not work.
+Run `game.py` & submit a screenshot for check point 1. You may have to hit Control-C to kill the game if closing the window does not work.
 
 ## Step 2: `makeMove`
 
-Uncomment the `makeMove` method and its comment and implement the method. Adhere to the method's comment description when implementing the method.
+Implement the `makeMove` method. Adhere to the method's comment description when implementing the method.
 
-Then, uncomment the code in the play method to test `makeMove`. Run `game.py` to test. Take a screenshot & submit a screenshot for check point 2 (make sure to show your code & a board with colored tiles).
+Then, test `makeMove` by running `game.py`. Take a screenshot & submit a screenshot for check point 2 (make sure to show your code & a board with colored tiles).
 
 ## Step 3: `_isWon`
 
-Implement `_isWon` to determine if a player has won. Uncomment the code in the play method to test `_isWon`. Run `game.py` to test your game. When you've tested that both players can win, you're ready to submit.
+Implement `_isWon` to determine if a player has won. You may want to try implementing it for the tic tac toe game we looked at in class (`tictactoe2.py`), and then see how your solution could be adapted to go from looking at 3 spots to 4.
+
+Run `game.py` to test your game. When you've tested that both players can win, you're ready to submit.
 
 <!--Draw a UML diagram of the given code. Example for the Date class:
 -->
+
+## Extra Credit: Smarter computer player
+
+For extra credit, change `_computerMakeMove` to be more intelligent & actively prevent the human player from winning.
 
 ## Submission
 
