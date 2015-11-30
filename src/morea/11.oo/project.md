@@ -36,4 +36,4 @@ Once you’re satisfied that your game is working correctly, zip it for submissi
 
   * `cd ..`
   * `zip project5_uLogin.zip project5_uLogin/*`
-*Assignment adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*
+<!--*Assignment adapted from [Harvey Mudd's CS 5 Fun with Images](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunWithImagesGold2010).*-->
