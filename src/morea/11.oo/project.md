@@ -39,6 +39,10 @@ Run `game.py` to test your game. When you've tested that both players can win, y
 
 For extra credit, change `_computerMakeMove` to be more intelligent & actively prevent the human player from winning.
 
+## Extra Credit: Checkers
+
+Implement support in `ConnectFour` to play a checkers game. Write your own `checkers.py` main program to run that instead of `ConnectFour`.
+
 ## Submission
 
 Make sure you've added your name to the comments at the top of the file, that your program contains comments and follows good programming style.
