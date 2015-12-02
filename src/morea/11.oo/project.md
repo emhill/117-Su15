@@ -24,6 +24,17 @@ Run `game.py` & submit a screenshot for check point 1. You may have to hit Contr
 
 Implement the `makeMove` method. Adhere to the method's comment description when implementing the method.
 
+**Suggested Steps:**
+
+1. Change color of *one* square by setting it equal to 1 or 2 and returning a valid row: 
+
+    `self.board[0][0] = 1`
+
+	`return 0`
+
+2. Change the color of the column `col`.
+3. Loop over the column to find the first free slot and return this row. Don't forget to use `whichplayer` to set the color instead of 1!
+
 Then, test `makeMove` by running `game.py`. Take a screenshot & submit a screenshot for check point 2 (make sure to show your code & a board with colored tiles).
 
 ## Step 3: `_isWon`
