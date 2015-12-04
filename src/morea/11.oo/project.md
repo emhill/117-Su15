@@ -41,7 +41,15 @@ Then, test `makeMove` by running `game.py`. Take a screenshot & submit a screens
 
 Implement `_isWon` to determine if a player has won. You may want to try implementing it for the tic tac toe game we looked at in class (`tictactoe2.py`), and then see how your solution could be adapted to go from looking at 3 spots to 4.
 
-Run `game.py` to test your game. When you've tested that both players can win, you're ready to submit.
+Testing `_isWon` is difficult with the randomness of the computer player. I recommend commenting out the following line in the play method:
+
+  `col = self._computerMakeMove()`
+
+and *un*commenting this one:
+
+  `col = self._userMakeMove()`
+
+This way you can control where all red and black peices go. Run `game.py` to test your game. When you've tested that both players can win in many configurations, you're ready to submit.
 
 <!--Draw a UML diagram of the given code. Example for the Date class:
 -->
