@@ -35,6 +35,8 @@ Implement the `makeMove` method. Adhere to the method's comment description when
 2. Change the color of the column `col`.
 3. Loop over the column to find the first free slot and return this row. Don't forget to use `whichplayer` to set the color instead of 1!
 
+<a href="makeMove.JPG"><img src="makeMove.JPG" width=400></a>
+
 Then, test `makeMove` by running `game.py`. Take a screenshot & submit a screenshot for check point 2 (make sure to show your code & a board with colored tiles).
 
 ## Step 3: `_isWon`
@@ -49,10 +51,13 @@ and *un*commenting this one:
 
   `col = self._userMakeMove()`
 
-This way you can control where all red and black peices go. Run `game.py` to test your game. When you've tested that both players can win in many configurations, you're ready to submit.
+This way you can control where all red and black peices go.
 
-<!--Draw a UML diagram of the given code. Example for the Date class:
--->
+Start with vertical, and then do horizontal, followed by diagonal -- each one gets  a little bit more challenging to get right. Diagonal especially is a bit tricky. You might consider drawing a diagram and writing down all the possible positions you need to check:
+
+<a href="isWon.JPG"><img src="isWon.JPG" width=400></a>
+
+Run `game.py` to test your game. When you've tested that both players can win in many configurations, you're ready to submit. Don't forget to turn the computer player back on!
 
 ## Extra Credit: Smarter computer player
 
