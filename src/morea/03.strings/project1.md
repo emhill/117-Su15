@@ -91,3 +91,6 @@ Once you're satisfied that your programs are working correctly, zip it for submi
   - Make sure to name your zip file `project1_uLogin1.zip`
 
 Upload your zip file to Google Classroom.
+
+## Hints
+  * Gave your project or file the wrong name? Right-click on it & go to `Refactor > Rename`
