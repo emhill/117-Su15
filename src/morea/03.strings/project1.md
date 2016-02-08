@@ -15,10 +15,10 @@ morea_labels:
 ## Setup
 
 1. In PyCharm, create a new project with the name `project1_uLogin`, where you replace "`uLogin`" with the beginning of your Drew e-mail address before the `@` symbol:
-    a. Go to `File > New Project`:<BR><img src="project1/NewProject.png" width="300">
-    1. Name the project:<BR><img src="project1/NameProject.png" width="400">
-    1. I recommend opening the project in a new window for now:<BR><img src="project1/OpenProject.png" width="200">
-2. Create 4 python files: `bye.py`, `convert.py`, `fun.py`, and `string.py`. To create a file, right-click on the project and select `New > Python File`: <BR><img src="project1/NewFile.png" width="300">
+    * Go to `File > New Project`:<BR><a href="project1/NewProject.png"><img src="project1/NewProject.png" width="300"></a>
+    * Name the project:<BR><a href="project1/NameProject.png"><img src="project1/NameProject.png" width="400"></a>
+    * I recommend opening the project in a new window for now:<BR><a href="project1/OpenProject.png"><img src="project1/OpenProject.png" width="200"></a>
+2. Create 4 python files: `bye.py`, `convert.py`, `fun.py`, and `string.py`. To create a file, right-click on the project and select `New > Python File`: <BR><a href="project1/NewFile.png"><img src="project1/NewFile.png" width="300"></a>
 
 <!--  * `mkdir project1_uLogin1_uLogin2`
   * `cd project1_uLogin1_uLogin2`
@@ -82,10 +82,12 @@ For example:
 
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
-  - Locate your project on your computer's hard drive. PyCharm can help:<BR><img src="project1/reveal.png" width="400">
+  - Locate your project on your computer's hard drive. PyCharm can help:
+      * **on windows:**<BR><a href="project1/explorer.png"><img src="project1/explorer.png" width="400"></a>
+      * **on mac:**<BR><a href="project1/reveal.png"><img src="project1/reveal.png" width="400"></a>
   - Right-click on your project folder & create a zip file
-    * **on windows:**<BR><img src="project1/Compress.jpeg" width="300">
-    * **on mac:**<BR><img src="project1/Compress.png" width="300">
+    * **on windows:**<BR><a href="project1/Compress.jpeg"><img src="project1/Compress.jpeg" width="300"></a>
+    * **on mac:**<BR><a href="project1/Compress.png"><img src="project1/Compress.png" width="300"></a>
   - Make sure to name your zip file `project1_uLogin1.zip`
 
 Upload your zip file to Google Classroom.
