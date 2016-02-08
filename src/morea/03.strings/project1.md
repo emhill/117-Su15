@@ -14,20 +14,25 @@ morea_labels:
 
 ## Setup
 
-  * `mkdir project1_uLogin1_uLogin2`
-  * `cd project1_uLogin1_uLogin2`
-  * `touch bye.py convert.py fun.py string.py`
+1. In PyCharm, create a new project with the name `project1_uLogin`, where you replace "`uLogin`" with the beginning of your Drew e-mail address before the `@` symbol:
+    a. Go to `File > New Project`:<BR><img src="project1/NewProject.png" width="300">
+    1. Name the project:<BR><img src="project1/NameProject.png" width="400">
+    1. I recommend opening the project in a new window for now:<BR><img src="project1/OpenProject.png" width="200">
+2. Create 4 python files: `bye.py`, `convert.py`, `fun.py`, and `string.py`. To create a file, right-click on the project and select `New > Python File`: <BR><img src="project1/NewFile.png" width="300">
 
-***Don't forget to add a comment at the top of each program with your & your partner(s) names and what the program does.***
+<!--  * `mkdir project1_uLogin1_uLogin2`
+  * `cd project1_uLogin1_uLogin2`
+  * `touch bye.py convert.py fun.py string.py`-->
+
+***Don't forget to add a comment at the top of each program with your name and what the program does.***
 
 ## bye.py
 
-3. Edit the file (`ped bye.py`):
+3. Edit the file `bye.py`:
     4. Create a variable that stores a name    
     1. Print "Goodbye, ...!" and replace the ellipsis (...) with the variable that is storing your last name.
     1. Add a comment at the top of the file that explains what your program does and who the authors are.
-4. Run your python program: `python3 bye.py`
-4. Copy your python file `bye.py` to `byebye.py`.
+4. Run your python program to make sure the output is correct
 
 ## convert.py
 
@@ -53,7 +58,7 @@ Write a program `fun.py` that takes a float as input from the user and prints ou
 
   1. The ceiling of the number (e.g., `ceiling(3.75)` is 4)
   1. The number rounded to 0 decimal places
-  1. The factorial of the rounded number
+  1. The factorial of the rounded number's absolute value
 
 
 ## string.py
@@ -77,7 +82,10 @@ For example:
 
 Once you're satisfied that your programs are working correctly, zip it for submission:
 
-  - `cd ..`
-  - `zip project1_uLogin1_uLogin2.zip project1_uLogin1_uLogin2/*`
+  - Locate your project on your computer's hard drive. PyCharm can help:<BR><img src="project1/reveal.png" width="400">
+  - Right-click on your project folder & create a zip file
+    * **on windows:**<BR><img src="project1/Compress.jpeg" width="300">
+    * **on mac:**<BR><img src="project1/Compress.png" width="300">
+  - Make sure to name your zip file `project1_uLogin1.zip`
 
 Upload your zip file to Google Classroom.
