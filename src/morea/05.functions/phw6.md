@@ -1,7 +1,7 @@
 ---
 title: "PHW6"
 published: true
-morea_id: phw6
+morea_id: wod4
 morea_type: experience
 morea_sort_order: 6
 morea_summary: "Functions: Putting it all together"
