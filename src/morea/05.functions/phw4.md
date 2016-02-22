@@ -1,25 +1,18 @@
 ---
-title: "WOD4: Functions"
+title: "HW"
 published: true
 morea_id: wod4
 morea_type: experience
 morea_sort_order: 5
-morea_summary: "In class"
+morea_summary: "Functions"
 morea_labels:
- - 2/25
+
 ---
-# WOD4: Functions
+# HW: Functions
 
 
 {% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-20 min" DNF="20+ min" %}
 
-### Setup
-
-  * `mkdir wod4_uLogin`
-  * `cd wod4_uLogin`
-  * `touch is_odd.py square.py`
-
-*Don't forget to add a comment at the top of the program with your name and what the program does.*
 
 ## is_odd.py
 
@@ -37,10 +30,7 @@ For example, a call to `square(3)` should output:
 
 ### Submission
 
-Once you're satisfied that your programs are working correctly, zip it for submission:
-
-  * `cd ..`
-  * `zip wod4_uLogin.zip wod4_uLogin/*`
+Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.
 
 
 <!-- Started @ 11:35 -->
