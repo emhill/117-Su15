@@ -51,7 +51,7 @@ Write a function `is_odd` that takes a number as a parameter and returns true if
 
 ## rectangle.py
 
-Create a program that draws a filled rectangle of asterix characters, **requesting the width and height from the user**. Write a function `rectangle` that takes the width & height as parameters and prints a filled square.
+Create a program that draws a filled rectangle of asterix characters, **requesting the width and height from the user**. Write a function `rectangle` that takes the width & height as parameters and prints a filled rectangle.
 
 For example, a call to `rectangle(3,5)` should output:
 
