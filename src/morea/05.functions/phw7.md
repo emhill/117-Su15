@@ -1,5 +1,5 @@
 ---
-title: "PHW7"
+title: "HW"
 published: true
 morea_id: phw7
 morea_type: experience
@@ -8,7 +8,7 @@ morea_summary: "Recursion"
 morea_labels:
 
 ---
-# Practice HW7: Recursion
+# HW: Recursion
 
 <!--In this practice HW you will create 2 programs that take code we've previously written for other PHWs and turn them into functions.-->
 
@@ -46,7 +46,7 @@ Test your function works by getting a string as input from the user.
 
 For extra practice, try writing `text_steps` using a loop instead of recursion.
 
-## Demonstration
+<!--## Demonstration
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
@@ -57,4 +57,8 @@ Once you've finished doing the HW a single time, you can watch me do it:
 	    for i in range(len(txt)):
 		    print(txt[i:])
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
+
+### Submission
+
+Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.
