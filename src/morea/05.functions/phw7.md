@@ -4,11 +4,11 @@ published: true
 morea_id: phw7
 morea_type: experience
 morea_sort_order: 7
-morea_summary: "Recursion"
+morea_summary: "Recursion I"
 morea_labels:
 
 ---
-# HW: Recursion
+# HW: Recursion I
 
 <!--In this practice HW you will create 2 programs that take code we've previously written for other PHWs and turn them into functions.-->
 
@@ -16,9 +16,9 @@ morea_labels:
 
 ## power.py
 
-Write a function `power` which takes two numbers (`base` amd `exponent`) as parameters and calculates the value `base ** exponent` using recursion by repeatedly multiplying `base`.
+Write a function `power` which takes two numbers (`base` and `exponent`) as parameters and calculates the value `base ** exponent` using recursion by repeatedly multiplying `base`.
 
-Next write a function `power_loop` which takes two numbers (`base` amd `exponent`) as parameters and calculates the value `base ** exponent` using a loop.
+Next write a function `power_loop` which takes two numbers (`base` and `exponent`) as parameters and calculates the value `base ** exponent` using a loop.
 
 Test that both functions return the same value when called with the same parameters. 
 

@@ -1,20 +1,20 @@
 ---
-title: "PHW8"
+title: "HW"
 published: true
 morea_id: phw8
 morea_type: experience
 morea_sort_order: 8
-morea_summary: "Recursion & Lists"
+morea_summary: "Recursion II"
 morea_labels:
 
 ---
-# Practice HW8: Recursion & Lists
+# HW: Recursion II
 
-In this practice HW you will create 3 programs that use strings, lists, and recursion.
+In this practice HW you will create 2 programs that use strings, lists, and recursion.
 
 {% include wod-times.html Rx="<30 min" Av="30-60 min" Sd="60-90 min" DNF="90+ min" %}
 
-## mode.py
+<!--## mode.py
 
 Create a program that calculates the most frequently occurring number in a list of 10 numbers. You may hard-code in a list of numbers rather than getting them as input from the user. You may use the python [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function from the statistics package.
 
@@ -22,7 +22,7 @@ Create a program that calculates the most frequently occurring number in a list 
 
 1. Create a list of 10 numbers and print it out
 2. Make sure one number occurs more than any other
-2. Print out the [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function applied to the list
+2. Print out the [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function applied to the list-->
 
 ## wheel.py
 
@@ -77,7 +77,7 @@ Test your functions by getting a string of text from the user and printing the r
 2. Now print the other way
 3. Get input from the user
 
-## Demonstration
+<!--## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it. ***Note***, this video includes exercises in a different order:
@@ -88,5 +88,9 @@ Recursive solution to pyramid function in `text.py`:
 
 {% include youtube.html id="yBrjRTtFiTE" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
+
+### Submission
+
+Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.
 
