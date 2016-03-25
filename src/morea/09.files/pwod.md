@@ -1,5 +1,5 @@
 ---
-title: "PHW10"
+title: "HW"
 published: true
 morea_id: phw10
 morea_type: experience
@@ -8,9 +8,9 @@ morea_summary: "Files & While"
 morea_labels:
 
 ---
-# Practice HW10: Files & While
+# HW: Files & While
 
-In this practice HW you will create 3 programs that get input/output from files and use while loops. 
+In this HW you will create 3 programs that get input/output from files and use while loops. 
 
 {% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
@@ -57,10 +57,10 @@ Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and 
 
 ***Hints:***
 
-  * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.
+<!--  * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.-->
   * You should add the file names `text1.txt`, `text2.txt`, and `text3.txt` to a list, so you don't have to copy & paste your code.
 
-## Demonstration
+<!--## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it for `while.py` and `count.py`:
@@ -84,4 +84,4 @@ My solution for `lines.py`:
 	count.close()
 
 {% include wod-warning.html %}
-
+-->
