@@ -18,6 +18,10 @@ Using the `Card` class we went over in lecture (see `card.py`), create a file `g
 
 Your `game.py` program must include a main method as we went over in class (see `card.py`). You are encouraged to think about creating additional classes besides `Card` that might help implement your game, such as `Deck` or `Hand`, but this is not a formal requirement.
 
+***Hints:***
+
+* Your first step should be drawin a mock-game play scenario for one game. What text will you output to the user? What will you ask them to input? How will you keep them aware of the status of their hand & the game?
+
 ## Part B: Date
 
 Begin by creating a file `date.py`:
