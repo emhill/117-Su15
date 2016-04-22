@@ -20,10 +20,27 @@ Your `game.py` program must include a main method as we went over in class (see 
 
 ***Hints:***
 
-* Your first step should be drawin a mock-game play scenario for one game. What text will you output to the user? What will you ask them to input? How will you keep them aware of the status of their hand & the game?
-* Next think about what data you will need to keep track of throughout the game. How should you store that data? In a data structure like a list, or do you need to create additional classes?
-* Create an implementation plan. Try to think of your problem in terms of features. List them out. Prioritize the features that are critical to gameplay. Are there some features that you could leave until later or possibly leave out completely and still have a working game?
-* Start implementing your steps
+* Your first step should be drawing a mock-game play scenario for one game. What text will you output to the user? What will you ask them to input? How will you keep them aware of the status of their hand & the game?
+
+	**Example mock gameplay for crazy 8s:**
+		
+		Hand: 3H 4C 7D 8S 2H 5C 10H AH
+		       1  2  3  4  5  6   7  8
+		
+		Top of deck: 3D
+		Do you want to (A) draw or (B) play card?
+		> B
+		Which card? (1-8)
+		> 1
+		Computer drew a card
+		Top of deck: 3H
+		Do you want to (A) draw or (B) play card?
+		
+		... etc ...
+
+* Next think about what data you will need to keep track of throughout the game. How should you store that data? In a data structure like a list, single variables, or do you need to create additional classes?
+* Create an implementation plan. Try to think of your problem in terms of features. List them out. Prioritize the features that are critical to gameplay. Are there some features that you could leave until later or possibly leave out completely and still have a working game? Do some features need to be implemented before others?
+* Start implementing your features.
 
 ## Part B: Date
 
