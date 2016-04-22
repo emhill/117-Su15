@@ -16,7 +16,7 @@ In this project you will implement a text-based card game as well as the `Date` 
 
 Using the `Card` class we went over in lecture (see `card.py`), create a file `game.py` that implements a basic card game. It can either require 2 players or 1 player and the computer. **Every game *must* be unique.**
 
-Your `game.py` program must include a main method as we went over in class (see `card.py`). You are encouraged to think about creating additional classes besides `Card` that might help implement your game, such as `Deck` or `Hand`, but this is not a formal requirement.
+Your `game.py` program must include a `main` function as we went over in class (see `card.py`). You are encouraged to think about creating additional classes besides `Card` that might help implement your game, such as `Deck` or `Hand`, but this is not a formal requirement.
 
 ***Hints:***
 
@@ -32,7 +32,7 @@ Your `game.py` program must include a main method as we went over in class (see 
 		> B
 		Which card? (1-8)
 		> 1
-		Computer drew a card
+		Computer player drew a card
 		Top of deck: 3H
 		Do you want to (A) draw or (B) play card?
 		
