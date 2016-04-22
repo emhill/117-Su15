@@ -81,7 +81,7 @@ Begin by creating a file `date.py`:
 	        elif self.year % 4 == 0: return True
 	        return False
 
-You should also create a file `main.py` that you will use to test that your Date class works correctly. Make sure this file includes a main function that is called like we did in `card.py`.
+You should also create a file `main.py` that you will use to test that your `Date` class works correctly. Make sure this file includes a main function that is called like we did in `card.py`.
 
 ### Understanding `Date`
 
@@ -105,13 +105,13 @@ Notice the line
 
     s =  "%02d/%02d/%04d" % (self.month, self.day, self.year)
 
-in the `repr` method. This constructs a string with the month, day, and the year, formatted very nicely to have exactly two digits places for the month, two digit places for the day, and four for the year.
+in the `repr` method. This constructs a string with the month, day, and the year, formatted very nicely to have exactly two digit places for the month, two digit places for the day, and four for the year.
 
-We've also defined our own `isLeapYear` method. There are no double-underscores here, because Python didn't "expect" this method, but it certainly doesn't "object" to it either. (Clearly our puns have no *class*!)
+We've also defined our own `isLeapYear` method. There are no double-underscores here, because Python didn't "expect" this method, but it certainly doesn't "object" to it either. (Clearly these puns have no *class*!)
 
 #### Note on "method":
 
-Traditionally, functions called by objects are called *methods*. There is no really good reason for this. They are just like functions—-the only thing special about them is that they are defined in a class and they are called after a dot or period following the name of an object. For example, try these:
+Traditionally, functions called by objects are called *methods*. There is no really good reason for this. They are just like functions--the only thing special about them is that they are defined in a class and they are called after a dot or period following the name of an object. For example, try these in the python console:
 
 	>>> from date import *
 	>>> d = Date(4, 7, 2015)
@@ -135,11 +135,11 @@ The answer is `self`. The `self` variable holds **the object that calls the meth
 
 This is why `self` is always the first argument to all of the methods in the `Date` class (and in any class that you define): because `self` is how the method can access the individual data members in the object that called it.
 
-**Please notice also:** this means that a method always has at least one argument, namely `self`. However, this value is passed in implicitly when the method is called. For example, `isLeapYear` is invoked in the example above as `Date(1,1,1900).isLeapYear()`, and Python automatically passed self, in this case the object `Date(1,1,1900)`, as the first argument to the `isLeapYear` method.
+**Please notice also:** this means that a method always has at least one argument, namely `self`. However, this value is passed  implicitly when the method is called. For example, `isLeapYear` is invoked in the example above as `Date(1,1,1900).isLeapYear()`, and Python automatically passed self, in this case the object `Date(1,1,1900)`, as the first argument to the `isLeapYear` method.
 
 #### Testing your initial `Date` class:
 
-Just to get a feel for how to test your new datatype, try out the following calls:
+Just to get a feel for how to test your new datatype, try out the following calls in the python console:
 
 	# create an object named d with the constructor
 	>>> d = Date(4, 7, 2015)  # use another day if you prefer...
@@ -186,7 +186,7 @@ Just to get a feel for how to test your new datatype, try out the following call
 
 #### copy and equals
 
-Add the following code to your `Date` class and then test that it works.
+Add the following code to your `Date` class and then test that it works:
 
     def copy(self):
         """ Returns a new object with the same month, day, year
