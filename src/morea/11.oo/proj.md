@@ -81,7 +81,7 @@ Begin by creating a file `date.py`:
 	        elif self.year % 4 == 0: return True
 	        return False
 
-You should also create a file `main.py` that you will use to test that your `Date` class works correctly. Make sure this file includes a main function that is called like we did in `card.py`.
+You should also create a file `main.py` that you will use to test that your `Date` class works correctly. Make sure this file includes a main function that is called like we did in `card2.py`.
 
 ### Understanding `Date`
 
