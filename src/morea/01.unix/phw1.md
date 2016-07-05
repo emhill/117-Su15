@@ -7,6 +7,8 @@ morea_sort_order: 5
 morea_summary: "Types & Arithmetic"
 morea_labels:
 
+---
+
 ### Types & Arithmetic 
 
 Try to answer the following questions *without* typing them in to the PyCharm console, as you would on an exam or quiz.
