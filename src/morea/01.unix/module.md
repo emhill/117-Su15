@@ -10,6 +10,7 @@ morea_experiences:
  - install-mac
  - install-windows
  - unix-custom
+ - first
  - phw1
 morea_assessments:
 morea_type: module
