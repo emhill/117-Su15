@@ -8,7 +8,7 @@ morea_summary: "First python programs"
 morea_labels:
 
 ---
-# Using Variables
+# First Programs: Using Variables
 
 1. Open PyCharm, and create a new project called "FirstPrograms".
 2. Right-click and create a new python file called `hello_me.py`
