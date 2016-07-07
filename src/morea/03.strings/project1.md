@@ -18,7 +18,7 @@ morea_labels:
     * Go to `File > New Project`:<BR><a href="project1/NewProject.png"><img src="project1/NewProject.png" width="300"></a>
     * Name the project:<BR><a href="project1/NameProject.png"><img src="project1/NameProject.png" width="400"></a>
     * I recommend opening the project in a new window for now:<BR><a href="project1/OpenProject.png"><img src="project1/OpenProject.png" width="200"></a>
-2. Create 4 python files: `bye.py`, `convert.py`, `fun.py`, and `string.py`. To create a file, right-click on the project and select `New > Python File`: <BR><a href="project1/NewFile.png"><img src="project1/NewFile.png" width="300"></a>
+2. Create 5 python files: `bye.py`, `convert.py`, `fun.py`, `string.py`, and `madlibs.py`. To create a file, right-click on the project and select `New > Python File`: <BR><a href="project1/NewFile.png"><img src="project1/NewFile.png" width="300"></a>
 
 <!--  * `mkdir project1_uLogin1_uLogin2`
   * `cd project1_uLogin1_uLogin2`
