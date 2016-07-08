@@ -14,7 +14,7 @@ morea_labels:
 
 ## Setup
 
-In the PyCharm sandbox, create two python files: `maths.py` & `mangle.py`. (If you've forgotten how to do that, refer back to [the previous HW](http://emhill.github.io/150/morea/01.unix/phw1.html).)
+In PyCharm, create two python files: `maths.py` & `mangle.py`. <!--(If you've forgotten how to do that, refer back to [the previous HW](http://emhill.github.io/150/morea/01.unix/phw1.html).)-->
 
 *Don't forget to add a comment at the top of each program with your name and what the program does.*
 
