@@ -32,19 +32,19 @@ Write a program `maths.py` that takes a number as input from the user and prints
 Write a program `mangle.py` that takes a string as input from the user and prints the string after performing the following operations:
 
   1. converting the string to all upper case letters
-  1. removing the second character
-  1. removing the second to last character
+  1. removing the third character
+  1. removing the third to last character
   
 For example:
 
 | **string** | **mangle(string)** |
 |:---:|:---:|
-| hellothere | HLLOTHEE |
-| 42 degrees Celsius | 4 DEGREES CELSIS | 
+| hellothere | HELOTHRE |
+| 42 degrees Celsius | 42DEGREES CELSUS | 
 
-## Submission
+<!--## Submission
 
-Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.
+Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.-->
 
 <!--## Demonstration
 
