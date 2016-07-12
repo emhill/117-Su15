@@ -22,7 +22,7 @@ In PyCharm, create two python files: `maths.py` & `mangle.py`. <!--(If you've fo
 
 Write a program `maths.py` that takes a number as input from the user and prints out the following information using the math module:
 
-  1. The floor of the number (e.g., `floor(3.75)` is 3)
+  1. The floor of the number using the math module (e.g., `floor(3.75)` is 3)
   1. The absolute value of the number (this should be stored as a variable called `absolute_value`)
   1. The square root of `absolute_value` rounded to 2 decimal places <!-- factorial -->
   1. `absolute_value` times -1
