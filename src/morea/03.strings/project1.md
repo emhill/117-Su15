@@ -95,7 +95,7 @@ For example:
 
 | **string** | **Mangled Output** | **Middle 3** |
 |:---:|:---:|:---:|
-| Monty Python | mNTY pYTHN | ' Py' |
+| Monty Python!! | mNTY pYTHN!! | 'Pyt' |
 | hello | HLO | ell |
 | oh | OH | oh |
 
