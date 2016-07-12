@@ -96,7 +96,7 @@ For example:
 | **string** | **Mangled Output** | **Middle 3** |
 |:---:|:---:|:---:|
 | Monty Python | mNTY pYTHN | y P |
-| hello | HLL | ell |
+| hello | HLO | ell |
 | oh | OH | '' |
 
 <!--| **string** | **Mangled Output** | **Middle 3** |
@@ -107,7 +107,7 @@ For example:
 
 ## madlibs.py
 
-Create a program `madlibs.py` that takes at least 6 parts of speech from the user as input, and should include ***at least*** one of each of the following parts of speech:
+Create a program `madlibs.py` that takes at least 6 parts of speech from the user as input, and outputs a story using those words. Your program should include ***at least*** one of each of the following parts of speech:
 
   * Noun
   * Adjective
