@@ -42,7 +42,8 @@ For example:
 | hellothere | HELOTHRE |
 | 42 degrees Celsius | 42DEGREES CELSUS | 
 
-Hints:
+**Hints:**
+
   * How do we convert a string to upper case? Try googling! You can also look at the slides & textbook readings.
   * How do we remove from strings using only slices (i.e., [:])?
 
