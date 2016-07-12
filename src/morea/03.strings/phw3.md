@@ -42,6 +42,10 @@ For example:
 | hellothere | HELOTHRE |
 | 42 degrees Celsius | 42DEGREES CELSUS | 
 
+Hints:
+  * How do we convert a string to upper case? Try googling! You can also look at the slides & textbook readings.
+  * How do we remove from strings using only slices (i.e., [:])?
+
 <!--## Submission
 
 Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 2 screenshots.-->
