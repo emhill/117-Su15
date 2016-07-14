@@ -1,5 +1,5 @@
 ---
-title: "PHW4"
+title: "HW"
 published: true
 morea_id: phw4
 morea_type: experience
@@ -8,9 +8,9 @@ morea_summary: "Input & Ifs"
 morea_labels:
 
 ---
-# Practice HW4: Input & Ifs
+# HW: Input & Ifs
 
-In this practice HW you will create 3 programs that explore getting user input and using if statements.
+In this HW you will create 3 programs that explore getting user input and using if statements.
 
 {% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
@@ -40,11 +40,11 @@ Create a program that asks the user for a whole number and prints whether it's a
 
 
 
-## Demonstration
+<!--## Demonstration
 
 
 Once you've finished doing the HW a single time, you can watch me do it:
 
 {% include youtube.html id="gHFuYMWDa28" %}
 
-{% include wod-warning.html %}
+{% include wod-warning.html %}-->
