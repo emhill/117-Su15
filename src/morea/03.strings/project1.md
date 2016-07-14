@@ -97,7 +97,7 @@ For example:
 |:---:|:---:|:---:|
 | Monty Python!! | mNTY pYTHON! | 'Pyt' |
 | hello | HLO | ell |
-| oh! | OH! | oh! |
+| oh! | O! | oh! |
 
 <!--| **string** | **Mangled Output** | **Middle 3** |
 |:---:|:---:|:---:|
