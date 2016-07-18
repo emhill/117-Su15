@@ -61,9 +61,9 @@ For example, a call to `rectangle(3,5)` should output:
     ***
     ***
 
-### Submission
+<!--### Submission
 
-Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 3 screenshots.
+Once you're satisfied that your programs are working correctly, take a screenshot of each program open in the editor, with its output displayed in the console, and submit to google classroom. You should submit 3 screenshots.-->
 
 
 <!-- Started @ 11:35 -->
