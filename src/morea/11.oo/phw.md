@@ -1,5 +1,5 @@
 ---
-title: "HW11"
+title: "Project 3"
 published: true
 morea_id: phw14
 morea_type: experience
@@ -8,9 +8,9 @@ morea_summary: "Objects in Python"
 morea_labels:
 
 ---
-# HW11: Objects in Python
+# Project 3: Objects in Python
 
-In this practice HW you will implement the `Date` class we began during lecture.
+In this project you will implement and test a `Date` class.
 
 <!--{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}-->
 
@@ -303,7 +303,15 @@ Make sure to test your method. Here are some to start with:
 
 You can check your own date arithmetic with this website: [http://www.timeanddate.com/date/dateadd.html](http://www.timeanddate.com/date/dateadd.html).
 
+### main
+
+Make sure your main class tests all the functionality that you have implemented: `isAfter`, `tomorrow`, `addNDays`. How do you know if your methods are implemented correctly? Does running each method once verify their correctness, or do you need to run them multiple times? For example, there are many different scenarios that can occur for the end of a month or the end of a year (leap year or not). Make sure you test all the cases you can think of.
+
 *Assignment adapted from [Harvey Mudd's CS 5 Virtual Art Lab](https://www.cs.hmc.edu/twiki/bin/view/CS5/Lab10).*
+
+# GradingYou will be graded on the following:- **Correctness**: Your code should perform as specified. Correctness will count for the largest portion of your grade.- **Testing**: How well did you verify that your program meets the specification? This will be the second largest portion of your grade.- **Docstrings**: For each class & method that you design from scratch, write a good docstring (`"""`). - **Internal comments**: Within functions, the more complicated parts of your code should also be described using "internal" comments (i.e., docstrings).- **Programming style**: Your variable names should be meaningful and your code as simple and clear as possible.- **Formatting style**: Each line should be less than 80 characters long including spaces. You should break up long lines using `\`. # SubmittingWhen complete, your project should include the following python files:
+- `date.py`
+- `main.py`Zip your project using the same steps as for the earlier project, giving the zip file the same name as your `project3_uLogin` folder name, and submit to canvas.
 
 <!--## Demonstration
 
