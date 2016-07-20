@@ -67,3 +67,26 @@ Once you're satisfied that your programs are working correctly, take a screensho
 
 
 <!-- Started @ 11:35 -->
+
+## Select Solutions
+
+<!--The solutions below are to the right. Scroll over to see them!
+--><!-- Highlight them or copy/paste to see them!-->
+
+### is_multiple.py
+   
+    def is_multiple(num, m):
+      return num % m == 0
+
+    print(is_multiple(5))
+    print(is_multiple(6))
+
+### rectangle.py
+
+    def rectangle(w, h):
+      for i in range(h):
+         print(w * "*")
+    
+    width = eval(input("Enter width: "))
+    height = eval(input("Enter height: "))
+    rectangle(width, height)
