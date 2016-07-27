@@ -32,7 +32,57 @@ You should be able to print:
 
 ## Solution
 
-When you've attempted the PHW, you can see my solution below.
+When you've attempted the PHW, you can see my solution below. Scroll down!
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
 
     >>> print([12 for x in range(12)])
     [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]

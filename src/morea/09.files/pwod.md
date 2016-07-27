@@ -60,6 +60,14 @@ Write a python program that reads 3 files, called `text1.txt`, `text2.txt`, and 
 <!--  * In UNIX you can get the number of lines in a file using the word count command: `wc -l [filename]`. This will allow you to test that your code is working correctly.-->
   * You should add the file names `text1.txt`, `text2.txt`, and `text3.txt` to a list, so you don't have to copy & paste your code.
 
+***Recommended Development Steps:***
+
+1. Create 3 text files
+2. Make a list of the filenames
+3. Make a loop to print each file
+4. Modify your loop to print the number of lines
+5. Output the number of lines to `counts.txt` instead
+
 <!--## Demonstration
 
 
