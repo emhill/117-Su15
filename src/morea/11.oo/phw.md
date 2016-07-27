@@ -305,7 +305,7 @@ You can check your own date arithmetic with this website: [http://www.timeanddat
 
 ### main
 
-Make sure your main class tests all the functionality that you have implemented: `isAfter`, `tomorrow`, `addNDays`. How do you know if your methods are implemented correctly? Does running each method once verify their correctness, or do you need to run them multiple times? For example, there are many different scenarios that can occur for the end of a month or the end of a year (leap year or not). Make sure you test all the cases you can think of.
+Your main class should be a program that tests all of the functionality that you added to your Date class. Make sure your main class tests all the functionality that you have implemented: `isAfter`, `tomorrow`, `addNDays`. How do you know if your methods are implemented correctly? Does running each method once verify their correctness, or do you need to run them multiple times? For example, there are many different scenarios that can occur for the end of a month or the end of a year (leap year or not). Make sure you test all the cases you can think of.
 
 *Assignment adapted from [Harvey Mudd's CS 5 Virtual Art Lab](https://www.cs.hmc.edu/twiki/bin/view/CS5/Lab10).*
 
