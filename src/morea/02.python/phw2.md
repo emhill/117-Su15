@@ -4,15 +4,15 @@ published: true
 morea_id: phw2
 morea_type: experience
 morea_sort_order: 5
-morea_summary: "UNIX, Hardware, & Binary"
+morea_summary: "Hardware & Binary"
 morea_labels:
 
 ---
-# HW: UNIX, Hardware, & Binary
+# PHW: Hardware & Binary
 
 <!--{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}-->
 
-## UNIX Setup
+<!--## UNIX Setup
 
 Access a UNIX command line by going to: [http://www.tutorialspoint.com/unix_terminal_online.php](http://www.tutorialspoint.com/unix_terminal_online.php)
 
@@ -28,7 +28,7 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
 1. Add your name to the file by typing `echo "Your name" > testfile.txt`
 1. In the terminal, type `cat testfile.txt`. Is your name displayed?
 1. Take a single screenshot of your UNIX terminal window with the above commands.
-
+-->
 ## Exploring Hardware
 
 Fill in the following blanks with: motherboard, processor, memory, hard drive:
@@ -43,8 +43,9 @@ Fill in the following blanks with: motherboard, processor, memory, hard drive:
 1. How many pieces of information can be conveyed with a single bit?
 1. How many bits would you need to represent each of the 50 United States using a unique permutation of bits?
 1. How many bits are in a byte?
-1. What is the binary representation of the number 3?
-1. What is the encoding standard used to convert text into ordinal numbers?
+1. What is the binary representation of the number 33?
+2. What is the decimal representation of the number 110011?
+1. Name one encoding standard used to convert text into ordinal numbers?
 
 <!--## UNIX Command Overview
 
