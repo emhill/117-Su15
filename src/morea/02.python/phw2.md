@@ -29,6 +29,7 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
 1. In the terminal, type `cat testfile.txt`. Is your name displayed?
 1. Take a single screenshot of your UNIX terminal window with the above commands.
 -->
+
 ## Exploring Hardware
 
 Fill in the following blanks with: motherboard, processor, memory, hard drive:
